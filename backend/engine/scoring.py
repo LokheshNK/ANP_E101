@@ -29,6 +29,27 @@ class DevLensKeywordScorer:
             
         return weight
 
+    def get_team_info(self):
+        """Extract team information from communication data"""
+        team_info = {}
+        
+        try:
+            with open(self.comm_path, 'r', encoding='utf-8') as f:
+                comm_data = json.load(f)
+            
+            for msg in comm_data:
+                user = msg['from']['user']
+                uid = user['id']
+                if uid not in team_info:
+                    team_info[uid] = {
+                        'name': user.get('displayName', f"User {uid[-3:]}"),
+                        'team': user.get('team', 'Unknown')
+                    }
+        except Exception as e:
+            print(f"Error extracting team info: {e}")
+        
+        return team_info
+
     def calculate_scores(self):
         # --- COMMUNICATION ---
         with open(self.comm_path, 'r', encoding='utf-8') as f:
@@ -45,20 +66,87 @@ class DevLensKeywordScorer:
         with open(self.exec_path, 'r', encoding='utf-8') as f:
             exec_data = json.load(f)
             
+        # Comprehensive impact tracking per person
         imp_map = {}
+        detailed_stats = {}
+        
         for commit in exec_data:
             meta = commit['devlens_meta']
             uid = meta['teams_user_id']
-            entropy = meta['stats']['total_entropy']
-            imp_map[uid] = imp_map.get(uid, 0) + entropy
+            
+            # Initialize person's stats if not exists
+            if uid not in detailed_stats:
+                detailed_stats[uid] = {
+                    'total_commits': 0,
+                    'total_additions': 0,
+                    'total_deletions': 0,
+                    'total_files_changed': 0,
+                    'unique_files': set(),
+                    'total_entropy': 0.0,
+                    'entropy_values': []
+                }
+            
+            # Aggregate statistics
+            stats = meta['stats']
+            detailed_stats[uid]['total_commits'] += 1
+            detailed_stats[uid]['total_additions'] += stats['additions']
+            detailed_stats[uid]['total_deletions'] += stats['deletions']
+            detailed_stats[uid]['total_files_changed'] += meta.get('files_changed', 1)
+            detailed_stats[uid]['total_entropy'] += stats['total_entropy']
+            detailed_stats[uid]['entropy_values'].append(stats['total_entropy'])
+            
+            # Track unique files (if file distribution exists)
+            if 'file_distribution' in meta:
+                for file_path in meta['file_distribution'].keys():
+                    detailed_stats[uid]['unique_files'].add(file_path)
+            
+            # Use entropy as the main impact score (as before)
+            imp_map[uid] = imp_map.get(uid, 0) + stats['total_entropy']
+
+        # Convert unique files set to count
+        for uid in detailed_stats:
+            detailed_stats[uid]['unique_files_count'] = len(detailed_stats[uid]['unique_files'])
+            detailed_stats[uid]['avg_entropy_per_commit'] = (
+                detailed_stats[uid]['total_entropy'] / detailed_stats[uid]['total_commits']
+                if detailed_stats[uid]['total_commits'] > 0 else 0
+            )
+            # Remove the set object for JSON serialization
+            del detailed_stats[uid]['unique_files']
+
+        # Store detailed stats for API access
+        self.detailed_stats = detailed_stats
 
         # --- FINAL MATH ---
         df = pd.DataFrame({'visibility': vis_map, 'impact': imp_map}).fillna(0)
         
+        # Ensure we have some variance in the data
+        if df['visibility'].std() == 0:
+            df['visibility'] = df['visibility'] + np.random.normal(0, 0.1, len(df))
+        if df['impact'].std() == 0:
+            df['impact'] = df['impact'] + np.random.normal(0, 0.1, len(df))
+        
         df['x_log'] = np.log1p(df['visibility'])
         df['y_log'] = np.log1p(df['impact'])
         
-        df['x_final'] = (df['x_log'] - df['x_log'].mean()) / (df['x_log'].std() + 1e-9)
-        df['y_final'] = (df['y_log'] - df['y_log'].mean()) / (df['y_log'].std() + 1e-9)
+        # Add small epsilon to prevent division by zero
+        x_std = df['x_log'].std() if df['x_log'].std() > 0 else 1.0
+        y_std = df['y_log'].std() if df['y_log'].std() > 0 else 1.0
         
-        return df[['x_final', 'y_final']].to_dict(orient='index')
+        df['x_final'] = (df['x_log'] - df['x_log'].mean()) / x_std
+        df['y_final'] = (df['y_log'] - df['y_log'].mean()) / y_std
+        
+        # Store raw values for reference
+        result_dict = {}
+        for idx in df.index:
+            result_dict[idx] = {
+                'x_final': df.loc[idx, 'x_final'],
+                'y_final': df.loc[idx, 'y_final'],
+                'visibility': df.loc[idx, 'visibility'],
+                'impact': df.loc[idx, 'impact']
+            }
+        
+        return result_dict
+
+    def get_detailed_stats(self):
+        """Return detailed execution statistics per person"""
+        return getattr(self, 'detailed_stats', {})
