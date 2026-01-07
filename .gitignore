@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Node / Frontend
+node_modules/
+dist/
+.eslintcache
+
+# Project Specific Data
+# (Keep these if you want the mock data shared, 
+# but ignore them if they contain sensitive info later)
+backend/data/*.json
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
