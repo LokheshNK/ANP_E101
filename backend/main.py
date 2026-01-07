@@ -91,6 +91,7 @@ def get_detailed_execution_stats():
                     "unique_files_count": stats["unique_files_count"],
                     "total_entropy": stats["total_entropy"],
                     "avg_entropy_per_commit": stats["avg_entropy_per_commit"],
+                    "sophisticated_impact": stats["sophisticated_impact"],
                     "avg_lines_per_commit": (
                         (stats["total_additions"] + stats["total_deletions"]) / stats["total_commits"]
                         if stats["total_commits"] > 0 else 0
@@ -98,12 +99,17 @@ def get_detailed_execution_stats():
                     "avg_files_per_commit": (
                         stats["total_files_changed"] / stats["total_commits"]
                         if stats["total_commits"] > 0 else 0
-                    )
+                    ),
+                    "quality_metrics": {
+                        "commit_consistency": self._calculate_commit_consistency(stats),
+                        "architectural_breadth": np.log1p(stats["unique_files_count"]),
+                        "complexity_per_commit": stats["avg_entropy_per_commit"]
+                    }
                 }
             })
         
-        # Sort by total impact (entropy)
-        formatted_stats.sort(key=lambda x: x["execution_stats"]["total_entropy"], reverse=True)
+        # Sort by sophisticated impact instead of raw entropy
+        formatted_stats.sort(key=lambda x: x["execution_stats"]["sophisticated_impact"], reverse=True)
         
         return {
             "count": len(formatted_stats),
