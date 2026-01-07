@@ -185,7 +185,7 @@ const Dashboard = ({ data, loading, error, onPointSelect }) => {
                   <div className="quadrant-badge" style={{ backgroundColor: getQuadrantColor(performer.x, performer.y) }}>
                     {getQuadrantShort(performer.x, performer.y)}
                   </div>
-                  <div className="hidden-gem-indicator">💎</div>
+                  <div className="hidden-gem-indicator"></div>
                 </div>
               ))
             ) : (
@@ -197,28 +197,6 @@ const Dashboard = ({ data, loading, error, onPointSelect }) => {
                 </div>
               </div>
             )}
-          </div>
-
-          <div className="quadrant-legend">
-            <h3>Quadrant Legend</h3>
-            <div className="legend-items">
-              <div className="legend-item">
-                <div className="legend-color high-high"></div>
-                <span>High Visibility, High Impact</span>
-              </div>
-              <div className="legend-item">
-                <div className="legend-color low-high"></div>
-                <span>Low Visibility, High Impact</span>
-              </div>
-              <div className="legend-item">
-                <div className="legend-color low-low"></div>
-                <span>Low Visibility, Low Impact</span>
-              </div>
-              <div className="legend-item">
-                <div className="legend-color high-low"></div>
-                <span>High Visibility, Low Impact</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -234,7 +212,7 @@ const Dashboard = ({ data, loading, error, onPointSelect }) => {
                 <h4>{teamData.team}</h4>
                 <div className="performer-type-badge">
                   {teamData.hasHiddenGems ? (
-                    <span className="hidden-gem-badge">💎 Hidden Gem</span>
+                    <span className="hidden-gem-badge">Hidden Gem</span>
                   ) : (
                     <span className="no-gem-badge">No Hidden Gem</span>
                   )}

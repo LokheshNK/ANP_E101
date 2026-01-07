@@ -243,25 +243,7 @@
   margin-bottom: 2px;
 }
 
-.quadrant-legend {
-  margin-top: 30px;
-  padding-top: 20px;
-  border-top: 2px solid #e5e5e5;
-}
 
-.quadrant-legend h3 {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #000000;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-.legend-items {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
 .team-performers-section {
   margin-top: 40px;
 }
@@ -509,9 +491,7 @@
 }
 
 .hidden-gem-indicator {
-  font-size: 1.2rem;
-  margin-left: 8px;
-  opacity: 0.8;
+  display: none;
 }
 
 .no-hidden-gems-message {
