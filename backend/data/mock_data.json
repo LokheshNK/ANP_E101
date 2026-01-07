@@ -1,0 +1,7 @@
+[
+  {"name": "Alex", "commits": 14, "entropy": 0.95, "meetings": 2, "msgs": ["Fixed memory leak", "Updated API logic"]},
+  {"name": "Jordan", "commits": 2, "entropy": 0.20, "meetings": 15, "msgs": ["Morning!", "Coffee?", "Great demo everyone", "Let's sync up"]},
+  {"name": "Sam", "commits": 18, "entropy": 0.85, "meetings": 10, "msgs": ["Merged hotfix", "Checking logs", "github.com/pull/42"]},
+  {"name": "Taylor", "commits": 4, "entropy": 0.40, "meetings": 3, "msgs": ["Learning docs", "Help with setup?"]},
+  {"name": "Casey", "commits": 12, "entropy": 0.75, "meetings": 1, "msgs": ["Refactoring middle-layer", "DB migration done"]}
+]
