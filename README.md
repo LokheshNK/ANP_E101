@@ -1,23 +1,23 @@
-# 🛡️ DevLens: The Silent Architect Finder
+#  DevLens: The Silent Architect Finder
 
 **DevLens** is an engineering intelligence dashboard designed to solve the **Visibility Paradox** in remote and hybrid teams. It mathematically separates "Social Noise" from "Technical Impact" to ensure that quiet, high-value contributors are recognized and rewarded fairly.
 
 ---
 
-## 🧩 The Problem: The Visibility Paradox
+##  The Problem: The Visibility Paradox
 In modern software teams, "being seen" is often confused with "being productive." Performance reviews frequently suffer from bias toward "loud" employees who dominate Slack channels or spam low-value commits. This leads to:
 * **Silent Architects** (High Impact, Low Visibility) being overlooked.
 * **Recognition Gaps** where social activity is mistaken for technical leadership.
 * **Burnout** of core talent who feel their "deep work" isn't valued.
 
-## 🎯 The Solution
+##  The Solution
 DevLens correlates execution data from **GitHub** with communication signals from **Slack/Teams**. By calculating a "Value Density" score and contrasting it against "Visibility," we map every developer into a **Disparity Quadrant**.
 
 
 
 ---
 
-## 🧠 The Intelligence (Our Logic)
+##  The Intelligence (Our Logic)
 
 ### 1. Value Density (The Impact Signal)
 We move beyond raw commit counts to measure **Code Entropy**:
@@ -40,7 +40,7 @@ This ranks individuals relative to their **Team Mean ($\mu$)**, making the data 
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 * **Frontend:** React.js, Tailwind CSS, Recharts (Data Visualization).
 * **Backend:** FastAPI (Python).
 * **Data Science:** Pandas & NumPy for vectorized statistical calculations.
@@ -50,7 +50,7 @@ This ranks individuals relative to their **Team Mean ($\mu$)**, making the data 
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Backend Setup
 ```bash
