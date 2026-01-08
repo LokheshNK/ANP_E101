@@ -6,6 +6,8 @@ import Dashboard from './components/Dashboard';
 import TeamAnalytics from './components/TeamAnalytics';
 import Settings from './components/Settings';
 import UserStats from './components/UserStats';
+import NLPVisibilityDemo from './NLPVisibilityDemo';
+import Methodology from './components/Methodology';
 
 const AppContent = () => {
   const { user, getMockData, settings } = useApp();
@@ -39,6 +41,10 @@ const AppContent = () => {
     switch (currentView) {
       case 'team-analytics':
         return <TeamAnalytics data={data} settings={settings} />;
+      case 'nlp-demo':
+        return <NLPVisibilityDemo />;
+      case 'methodology':
+        return <Methodology />;
       case 'settings':
         return <Settings />;
       case 'dashboard':
@@ -61,11 +67,18 @@ const AppContent = () => {
       <Sidebar currentView={currentView} onViewChange={setCurrentView} user={user} />
       
       <main className="flex-1 p-8 overflow-y-auto">
-        {currentView === 'dashboard' && (
+        {(currentView === 'dashboard' || currentView === 'nlp-demo' || currentView === 'methodology') && (
           <header className="flex justify-between items-end mb-12">
             <div>
               <h1 className="text-5xl font-black text-black tracking-tighter">DEVLENS<span className="text-green-600">.</span></h1>
-              <p className="text-gray-600 text-lg mt-2 font-light">Advanced Developer Performance Analytics Platform</p>
+              <p className="text-gray-600 text-lg mt-2 font-light">
+                {currentView === 'nlp-demo' 
+                  ? 'AI-Powered Message Visibility Analysis' 
+                  : currentView === 'methodology'
+                  ? 'Mathematical Models & Algorithms'
+                  : 'Advanced Developer Performance Analytics Platform'
+                }
+              </p>
               <p className="text-sm text-gray-500 mt-1">{user.company} • {user.name}</p>
             </div>
             <div className="bg-gray-50 border border-gray-200 px-6 py-3 rounded-xl shadow-sm">

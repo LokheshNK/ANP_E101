@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { ScatterChart, Scatter, XAxis, YAxis, Tooltip, ResponsiveContainer, ReferenceLine, Cell } from 'recharts';
 import { BarChart3, TrendingUp, Eye, EyeOff, Calendar, Users } from 'lucide-react';
+import MetricsBreakdown from './MetricsBreakdown';
 
 const Dashboard = ({ data, onUserSelect, settings }) => {
   const [hiddenGems, setHiddenGems] = useState([]);
   const [showingHiddenGems, setShowingHiddenGems] = useState(true);
+  const [selectedDeveloper, setSelectedDeveloper] = useState(null);
+  const [showMetricsBreakdown, setShowMetricsBreakdown] = useState(false);
 
   // Filter Hidden Gems (Quadrant 2 - High Impact, Low Visibility)
   useEffect(() => {
@@ -214,7 +217,11 @@ const Dashboard = ({ data, onUserSelect, settings }) => {
               />
               <ReferenceLine x={0} stroke="#d1d5db" strokeDasharray="2 2" />
               <ReferenceLine y={0} stroke="#d1d5db" strokeDasharray="2 2" />
-              <Scatter data={data} onClick={(e) => onUserSelect(e.payload)}>
+              <Scatter data={data} onClick={(e) => {
+                onUserSelect(e.payload);
+                setSelectedDeveloper(e.payload);
+                setShowMetricsBreakdown(true);
+              }}>
                 {data.map((entry, index) => (
                   <Cell 
                     key={`cell-${index}`} 
@@ -268,7 +275,11 @@ const Dashboard = ({ data, onUserSelect, settings }) => {
               displayData.map((user, index) => (
                 <div 
                   key={user.name} 
-                  onClick={() => onUserSelect(user)}
+                  onClick={() => {
+                    onUserSelect(user);
+                    setSelectedDeveloper(user);
+                    setShowMetricsBreakdown(true);
+                  }}
                   className={`group relative p-3 rounded-lg bg-white hover:bg-green-50 border border-gray-200 hover:border-green-300 cursor-pointer ${animationClass} transition-all duration-200`}
                 >
                   {/* Rank Badge */}
@@ -335,6 +346,14 @@ const Dashboard = ({ data, onUserSelect, settings }) => {
 
         </div>
       </div>
+
+      {/* Metrics Breakdown Modal */}
+      {showMetricsBreakdown && selectedDeveloper && (
+        <MetricsBreakdown
+          developer={selectedDeveloper}
+          onClose={() => setShowMetricsBreakdown(false)}
+        />
+      )}
     </div>
   );
 };
