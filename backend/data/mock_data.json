@@ -1,7 +1,12 @@
 [
-  {"name": "Alex", "commits": 14, "entropy": 0.95, "meetings": 2, "msgs": ["Fixed memory leak", "Updated API logic"]},
-  {"name": "Jordan", "commits": 2, "entropy": 0.20, "meetings": 15, "msgs": ["Morning!", "Coffee?", "Great demo everyone", "Let's sync up"]},
-  {"name": "Sam", "commits": 18, "entropy": 0.85, "meetings": 10, "msgs": ["Merged hotfix", "Checking logs", "github.com/pull/42"]},
-  {"name": "Taylor", "commits": 4, "entropy": 0.40, "meetings": 3, "msgs": ["Learning docs", "Help with setup?"]},
-  {"name": "Casey", "commits": 12, "entropy": 0.75, "meetings": 1, "msgs": ["Refactoring middle-layer", "DB migration done"]}
+  {"name": "Alex", "team": "Backend", "commits": 14, "entropy": 0.95, "meetings": 2, "msgs": ["Fixed memory leak", "Updated API logic"]},
+  {"name": "Jordan", "team": "Frontend", "commits": 2, "entropy": 0.20, "meetings": 15, "msgs": ["Morning!", "Coffee?", "Great demo everyone", "Let's sync up"]},
+  {"name": "Sam", "team": "Backend", "commits": 18, "entropy": 0.85, "meetings": 10, "msgs": ["Merged hotfix", "Checking logs", "github.com/pull/42"]},
+  {"name": "Taylor", "team": "Frontend", "commits": 4, "entropy": 0.40, "meetings": 3, "msgs": ["Learning docs", "Help with setup?"]},
+  {"name": "Casey", "team": "DevOps", "commits": 12, "entropy": 0.75, "meetings": 1, "msgs": ["Refactoring middle-layer", "DB migration done"]},
+  {"name": "Morgan", "team": "Backend", "commits": 8, "entropy": 0.60, "meetings": 5, "msgs": ["Code review complete", "Testing new features"]},
+  {"name": "Riley", "team": "Frontend", "commits": 16, "entropy": 0.88, "meetings": 4, "msgs": ["UI improvements", "Component refactor"]},
+  {"name": "Avery", "team": "DevOps", "commits": 6, "entropy": 0.45, "meetings": 8, "msgs": ["Infrastructure update", "Monitoring setup"]},
+  {"name": "Quinn", "team": "QA", "commits": 3, "entropy": 0.30, "meetings": 12, "msgs": ["Bug reports", "Test automation"]},
+  {"name": "Blake", "team": "QA", "commits": 5, "entropy": 0.35, "meetings": 6, "msgs": ["Performance testing", "Quality metrics"]}
 ]

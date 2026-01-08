@@ -1,0 +1,4386 @@
+[
+  {
+    "id": "m_0001",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T08:23:55.674018Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_emma",
+        "displayName": "Emma",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized database</div>"
+    }
+  },
+  {
+    "id": "m_0002",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T07:07:25.613527Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_emma",
+        "displayName": "Emma",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented security fix</div>"
+    }
+  },
+  {
+    "id": "m_0003",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T08:17:01.815847Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_emma",
+        "displayName": "Emma",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed critical memory leak</div>"
+    }
+  },
+  {
+    "id": "m_0004",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T10:51:12.804509Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_amelia",
+        "displayName": "Amelia",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Working on bugfix</div>"
+    }
+  },
+  {
+    "id": "m_0005",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T07:49:37.228282Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_amelia",
+        "displayName": "Amelia",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Code review completed</div>"
+    }
+  },
+  {
+    "id": "m_0006",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T08:06:17.988896Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_amelia",
+        "displayName": "Amelia",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Testing integration</div>"
+    }
+  },
+  {
+    "id": "m_0007",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T10:29:59.013030Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_mia",
+        "displayName": "Mia",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Architecting data pipeline</div>"
+    }
+  },
+  {
+    "id": "m_0008",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T09:01:25.611976Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_mia",
+        "displayName": "Mia",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Technical decision on framework</div>"
+    }
+  },
+  {
+    "id": "m_0009",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T11:03:17.351226Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_jordan",
+        "displayName": "Jordan",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Working on feature</div>"
+    }
+  },
+  {
+    "id": "m_0010",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T11:12:02.729116Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_jordan",
+        "displayName": "Jordan",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Code review completed</div>"
+    }
+  },
+  {
+    "id": "m_0011",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T11:08:32.451171Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_jordan",
+        "displayName": "Jordan",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Testing deployment</div>"
+    }
+  },
+  {
+    "id": "m_0012",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T11:19:20.670786Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_lucas",
+        "displayName": "Lucas",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Working on refactor</div>"
+    }
+  },
+  {
+    "id": "m_0013",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T11:03:42.605796Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_lucas",
+        "displayName": "Lucas",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Code review completed</div>"
+    }
+  },
+  {
+    "id": "m_0014",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T10:53:22.424409Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_lucas",
+        "displayName": "Lucas",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Testing integration</div>"
+    }
+  },
+  {
+    "id": "m_0015",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T11:03:50.280586Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_alexander",
+        "displayName": "Alexander",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized algorithm</div>"
+    }
+  },
+  {
+    "id": "m_0016",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T13:35:15.981712Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_alexander",
+        "displayName": "Alexander",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented security fix</div>"
+    }
+  },
+  {
+    "id": "m_0017",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T14:15:20.858058Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_alexander",
+        "displayName": "Alexander",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed critical race condition</div>"
+    }
+  },
+  {
+    "id": "m_0018",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T11:42:29.697949Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_benjamin",
+        "displayName": "Benjamin",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Working on bugfix</div>"
+    }
+  },
+  {
+    "id": "m_0019",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T15:26:10.613560Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_benjamin",
+        "displayName": "Benjamin",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Code review completed</div>"
+    }
+  },
+  {
+    "id": "m_0020",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T13:12:00.935554Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_benjamin",
+        "displayName": "Benjamin",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Testing unit tests</div>"
+    }
+  },
+  {
+    "id": "m_0021",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T12:44:56.820799Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_ava",
+        "displayName": "Ava",
+        "team": "DevOps"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized algorithm</div>"
+    }
+  },
+  {
+    "id": "m_0022",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T13:39:52.588205Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_ava",
+        "displayName": "Ava",
+        "team": "DevOps"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented new feature</div>"
+    }
+  },
+  {
+    "id": "m_0023",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T14:18:50.405064Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_ava",
+        "displayName": "Ava",
+        "team": "DevOps"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed critical memory leak</div>"
+    }
+  },
+  {
+    "id": "m_0024",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T13:43:28.021823Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_noah",
+        "displayName": "Noah",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Working on feature</div>"
+    }
+  },
+  {
+    "id": "m_0025",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T16:36:18.087927Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_noah",
+        "displayName": "Noah",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Code review completed</div>"
+    }
+  },
+  {
+    "id": "m_0026",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T16:29:30.687169Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_noah",
+        "displayName": "Noah",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Testing deployment</div>"
+    }
+  },
+  {
+    "id": "m_0027",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T16:43:28.380405Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_abigail",
+        "displayName": "Abigail",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Great meeting today!</div>"
+    }
+  },
+  {
+    "id": "m_0028",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T14:41:38.550883Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_abigail",
+        "displayName": "Abigail",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Let's sync up on this</div>"
+    }
+  },
+  {
+    "id": "m_0029",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T17:31:04.450074Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_abigail",
+        "displayName": "Abigail",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Coordinating with product team</div>"
+    }
+  },
+  {
+    "id": "m_0030",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T15:32:23.989199Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_abigail",
+        "displayName": "Abigail",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Status update ready</div>"
+    }
+  },
+  {
+    "id": "m_0031",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T17:56:45.702450Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_abigail",
+        "displayName": "Abigail",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Thanks for the feedback</div>"
+    }
+  },
+  {
+    "id": "m_0032",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T16:59:03.999399Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_abigail",
+        "displayName": "Abigail",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Looking forward to collaborating</div>"
+    }
+  },
+  {
+    "id": "m_0033",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T16:50:26.743858Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_abigail",
+        "displayName": "Abigail",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Let me know if you need help</div>"
+    }
+  },
+  {
+    "id": "m_0034",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T18:04:05.501918Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_taylor",
+        "displayName": "Taylor",
+        "team": "DevOps"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized database</div>"
+    }
+  },
+  {
+    "id": "m_0035",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T19:59:42.924416Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_taylor",
+        "displayName": "Taylor",
+        "team": "DevOps"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented new feature</div>"
+    }
+  },
+  {
+    "id": "m_0036",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T20:18:06.120091Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_taylor",
+        "displayName": "Taylor",
+        "team": "DevOps"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed critical bug</div>"
+    }
+  },
+  {
+    "id": "m_0037",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T19:14:48.408224Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_mason",
+        "displayName": "Mason",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Working on bugfix</div>"
+    }
+  },
+  {
+    "id": "m_0038",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T18:44:47.604409Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_mason",
+        "displayName": "Mason",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Code review completed</div>"
+    }
+  },
+  {
+    "id": "m_0039",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T17:57:06.676624Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_mason",
+        "displayName": "Mason",
+        "team": "QA"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Testing deployment</div>"
+    }
+  },
+  {
+    "id": "m_0040",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T20:47:09.498383Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_william",
+        "displayName": "William",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized API</div>"
+    }
+  },
+  {
+    "id": "m_0041",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T21:36:06.872097Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_william",
+        "displayName": "William",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented security fix</div>"
+    }
+  },
+  {
+    "id": "m_0042",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T18:53:16.455930Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_william",
+        "displayName": "William",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed critical bug</div>"
+    }
+  },
+  {
+    "id": "m_0043",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T19:28:28.245814Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_olivia",
+        "displayName": "Olivia",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized database</div>"
+    }
+  },
+  {
+    "id": "m_0044",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T23:07:03.802660Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_olivia",
+        "displayName": "Olivia",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented optimization</div>"
+    }
+  },
+  {
+    "id": "m_0045",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T21:19:18.205339Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_olivia",
+        "displayName": "Olivia",
+        "team": "UI/UX"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed critical bug</div>"
+    }
+  },
+  {
+    "id": "m_0046",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T22:21:31.447079Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sophia",
+        "displayName": "Sophia",
+        "team": "DevOps"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Architecting system design</div>"
+    }
+  },
+  {
+    "id": "m_0047",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T22:10:25.738716Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sophia",
+        "displayName": "Sophia",
+        "team": "DevOps"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Technical decision on framework</div>"
+    }
+  },
+  {
+    "id": "m_0048",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T21:25:40.814793Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zoe_walker",
+        "displayName": "Zoe Walker",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Excellent demo in the sprint review!</div>"
+    }
+  },
+  {
+    "id": "m_0049",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T23:01:09.064036Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zoe_walker",
+        "displayName": "Zoe Walker",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented continuous integration with automated testing</div>"
+    }
+  },
+  {
+    "id": "m_0050",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T22:32:12.698633Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zoe_walker",
+        "displayName": "Zoe Walker",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0051",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T00:20:01.724512Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zoe_walker",
+        "displayName": "Zoe Walker",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Refactored codebase following SOLID principles</div>"
+    }
+  },
+  {
+    "id": "m_0052",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T01:06:51.741530Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zoe_walker",
+        "displayName": "Zoe Walker",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed bugs identified in sprint retrospective</div>"
+    }
+  },
+  {
+    "id": "m_0053",
+    "replyToId": null,
+    "createdDateTime": "2024-05-21T22:43:08.771842Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zoe_walker",
+        "displayName": "Zoe Walker",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Updated user stories based on stakeholder feedback</div>"
+    }
+  },
+  {
+    "id": "m_0054",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T01:43:10.281128Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zoe_walker",
+        "displayName": "Zoe Walker",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0055",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T01:37:07.588535Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zoe_walker",
+        "displayName": "Zoe Walker",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0056",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T02:18:01.248168Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zoe_walker",
+        "displayName": "Zoe Walker",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Updated user stories based on stakeholder feedback</div>"
+    }
+  },
+  {
+    "id": "m_0057",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T02:18:54.784182Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zoe_walker",
+        "displayName": "Zoe Walker",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0058",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T02:21:59.170244Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zoe_walker",
+        "displayName": "Zoe Walker",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Updated user stories based on stakeholder feedback</div>"
+    }
+  },
+  {
+    "id": "m_0059",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T03:31:14.542455Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_harris",
+        "displayName": "Sage Harris",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented error tracking and monitoring system</div>"
+    }
+  },
+  {
+    "id": "m_0060",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T03:25:38.784474Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_harris",
+        "displayName": "Sage Harris",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Updated user stories based on stakeholder feedback</div>"
+    }
+  },
+  {
+    "id": "m_0061",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T03:35:20.113060Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_harris",
+        "displayName": "Sage Harris",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0062",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T04:22:05.967316Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_harris",
+        "displayName": "Sage Harris",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Loving our team velocity this sprint</div>"
+    }
+  },
+  {
+    "id": "m_0063",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T01:29:40.437389Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_harris",
+        "displayName": "Sage Harris",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented error tracking and monitoring system</div>"
+    }
+  },
+  {
+    "id": "m_0064",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T03:53:47.401919Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_harris",
+        "displayName": "Sage Harris",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Loving our team velocity this sprint</div>"
+    }
+  },
+  {
+    "id": "m_0065",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T01:46:54.708678Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_harris",
+        "displayName": "Sage Harris",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0066",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T02:37:12.840303Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_harris",
+        "displayName": "Sage Harris",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed bugs identified in sprint retrospective</div>"
+    }
+  },
+  {
+    "id": "m_0067",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T05:09:37.594643Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_harris",
+        "displayName": "Sage Harris",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Refactored codebase following SOLID principles</div>"
+    }
+  },
+  {
+    "id": "m_0068",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T05:53:23.477892Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_harris",
+        "displayName": "Sage Harris",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Created API endpoints for new mobile features</div>"
+    }
+  },
+  {
+    "id": "m_0069",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T04:20:45.288969Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_harris",
+        "displayName": "Sage Harris",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0070",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T04:07:00.291460Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_rowan_jackson",
+        "displayName": "Rowan Jackson",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized database queries reducing load time by 60%</div>"
+    }
+  },
+  {
+    "id": "m_0071",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T04:59:10.521833Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_rowan_jackson",
+        "displayName": "Rowan Jackson",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed bugs identified in sprint retrospective</div>"
+    }
+  },
+  {
+    "id": "m_0072",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T04:23:35.481333Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_rowan_jackson",
+        "displayName": "Rowan Jackson",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed bugs identified in sprint retrospective</div>"
+    }
+  },
+  {
+    "id": "m_0073",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T07:14:30.274226Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_rowan_jackson",
+        "displayName": "Rowan Jackson",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented error tracking and monitoring system</div>"
+    }
+  },
+  {
+    "id": "m_0074",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T07:14:09.585482Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_rowan_jackson",
+        "displayName": "Rowan Jackson",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0075",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T07:52:33.968668Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_rowan_jackson",
+        "displayName": "Rowan Jackson",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Refactored codebase following SOLID principles</div>"
+    }
+  },
+  {
+    "id": "m_0076",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T05:49:21.607810Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_rowan_jackson",
+        "displayName": "Rowan Jackson",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0077",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T08:12:41.676526Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_rowan_jackson",
+        "displayName": "Rowan Jackson",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Loving our team velocity this sprint</div>"
+    }
+  },
+  {
+    "id": "m_0078",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T07:00:53.059299Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_rowan_jackson",
+        "displayName": "Rowan Jackson",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0079",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T07:14:30.749348Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_rowan_jackson",
+        "displayName": "Rowan Jackson",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0080",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T08:42:11.797961Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_rowan_jackson",
+        "displayName": "Rowan Jackson",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0081",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T06:56:01.582944Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_eli_hall",
+        "displayName": "Eli Hall",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented error tracking and monitoring system</div>"
+    }
+  },
+  {
+    "id": "m_0082",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T09:31:27.511427Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_eli_hall",
+        "displayName": "Eli Hall",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0083",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T06:55:36.416523Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_eli_hall",
+        "displayName": "Eli Hall",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Great retrospective insights today!</div>"
+    }
+  },
+  {
+    "id": "m_0084",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T11:00:01.691586Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_eli_hall",
+        "displayName": "Eli Hall",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Excellent demo in the sprint review!</div>"
+    }
+  },
+  {
+    "id": "m_0085",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T08:00:50.518759Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_eli_hall",
+        "displayName": "Eli Hall",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0086",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T11:45:59.984259Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_eli_hall",
+        "displayName": "Eli Hall",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed bugs identified in sprint retrospective</div>"
+    }
+  },
+  {
+    "id": "m_0087",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T09:04:55.639270Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_eli_hall",
+        "displayName": "Eli Hall",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0088",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T12:00:05.188912Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_eli_hall",
+        "displayName": "Eli Hall",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0089",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T11:18:04.888257Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Excellent demo in the sprint review!</div>"
+    }
+  },
+  {
+    "id": "m_0090",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T10:19:04.780603Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Excellent demo in the sprint review!</div>"
+    }
+  },
+  {
+    "id": "m_0091",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T10:51:32.433974Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Refactored codebase following SOLID principles</div>"
+    }
+  },
+  {
+    "id": "m_0092",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T12:45:41.059446Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Refactored codebase following SOLID principles</div>"
+    }
+  },
+  {
+    "id": "m_0093",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T11:09:16.097273Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Thanks for the pair programming session</div>"
+    }
+  },
+  {
+    "id": "m_0094",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T11:31:59.424381Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Thanks for the pair programming session</div>"
+    }
+  },
+  {
+    "id": "m_0095",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T12:08:55.023464Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented continuous integration with automated testing</div>"
+    }
+  },
+  {
+    "id": "m_0096",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T11:09:22.259228Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Loving our team velocity this sprint</div>"
+    }
+  },
+  {
+    "id": "m_0097",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T14:41:06.508856Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0098",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T12:39:04.164803Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized database queries reducing load time by 60%</div>"
+    }
+  },
+  {
+    "id": "m_0099",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T15:39:02.060760Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented error tracking and monitoring system</div>"
+    }
+  },
+  {
+    "id": "m_0100",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T13:51:30.718736Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed bugs identified in sprint retrospective</div>"
+    }
+  },
+  {
+    "id": "m_0101",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T13:18:41.509706Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0102",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T13:21:22.060213Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Excellent demo in the sprint review!</div>"
+    }
+  },
+  {
+    "id": "m_0103",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T13:30:02.753734Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Great retrospective insights today!</div>"
+    }
+  },
+  {
+    "id": "m_0104",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T16:07:13.903376Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized database queries reducing load time by 60%</div>"
+    }
+  },
+  {
+    "id": "m_0105",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T15:16:27.436896Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0106",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T13:55:18.951057Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented error tracking and monitoring system</div>"
+    }
+  },
+  {
+    "id": "m_0107",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T16:22:54.391821Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented error tracking and monitoring system</div>"
+    }
+  },
+  {
+    "id": "m_0108",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T15:47:42.191177Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed bugs identified in sprint retrospective</div>"
+    }
+  },
+  {
+    "id": "m_0109",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T17:37:58.247402Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Great retrospective insights today!</div>"
+    }
+  },
+  {
+    "id": "m_0110",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T16:15:45.851176Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Updated user stories based on stakeholder feedback</div>"
+    }
+  },
+  {
+    "id": "m_0111",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T16:58:26.429321Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_skylar_thomas",
+        "displayName": "Skylar Thomas",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Created API endpoints for new mobile features</div>"
+    }
+  },
+  {
+    "id": "m_0112",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T17:10:18.700964Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nova_martin",
+        "displayName": "Nova Martin",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed bugs identified in sprint retrospective</div>"
+    }
+  },
+  {
+    "id": "m_0113",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T16:44:18.490665Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nova_martin",
+        "displayName": "Nova Martin",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Thanks for the pair programming session</div>"
+    }
+  },
+  {
+    "id": "m_0114",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T20:09:20.751219Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nova_martin",
+        "displayName": "Nova Martin",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Updated user stories based on stakeholder feedback</div>"
+    }
+  },
+  {
+    "id": "m_0115",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T17:47:27.727886Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nova_martin",
+        "displayName": "Nova Martin",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0116",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T19:22:39.663807Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nova_martin",
+        "displayName": "Nova Martin",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0117",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T18:06:31.999384Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nova_martin",
+        "displayName": "Nova Martin",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Ready for sprint planning tomorrow</div>"
+    }
+  },
+  {
+    "id": "m_0118",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T17:40:43.213237Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nova_martin",
+        "displayName": "Nova Martin",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Thanks for the pair programming session</div>"
+    }
+  },
+  {
+    "id": "m_0119",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T21:23:24.168479Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nova_martin",
+        "displayName": "Nova Martin",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0120",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T20:06:10.510661Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nova_martin",
+        "displayName": "Nova Martin",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented error tracking and monitoring system</div>"
+    }
+  },
+  {
+    "id": "m_0121",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T21:07:18.387535Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nova_martin",
+        "displayName": "Nova Martin",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Thanks for the pair programming session</div>"
+    }
+  },
+  {
+    "id": "m_0122",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T22:24:22.489405Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nova_martin",
+        "displayName": "Nova Martin",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Excellent demo in the sprint review!</div>"
+    }
+  },
+  {
+    "id": "m_0123",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T21:42:31.861770Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nova_martin",
+        "displayName": "Nova Martin",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented error tracking and monitoring system</div>"
+    }
+  },
+  {
+    "id": "m_0124",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T20:43:57.947072Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nova_martin",
+        "displayName": "Nova Martin",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented error tracking and monitoring system</div>"
+    }
+  },
+  {
+    "id": "m_0125",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T23:23:32.213536Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nova_martin",
+        "displayName": "Nova Martin",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Refactored codebase following SOLID principles</div>"
+    }
+  },
+  {
+    "id": "m_0126",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T23:33:31.694656Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nova_martin",
+        "displayName": "Nova Martin",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized database queries reducing load time by 60%</div>"
+    }
+  },
+  {
+    "id": "m_0127",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T23:00:16.141016Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Updated user stories based on stakeholder feedback</div>"
+    }
+  },
+  {
+    "id": "m_0128",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T22:48:56.862311Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0129",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T21:16:32.160539Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Ready for sprint planning tomorrow</div>"
+    }
+  },
+  {
+    "id": "m_0130",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T21:09:23.524158Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed bugs identified in sprint retrospective</div>"
+    }
+  },
+  {
+    "id": "m_0131",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T01:03:02.477208Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0132",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T22:32:39.141371Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Ready for sprint planning tomorrow</div>"
+    }
+  },
+  {
+    "id": "m_0133",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T00:33:01.527506Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Thanks for the pair programming session</div>"
+    }
+  },
+  {
+    "id": "m_0134",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T01:06:02.986986Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed bugs identified in sprint retrospective</div>"
+    }
+  },
+  {
+    "id": "m_0135",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T02:26:21.224299Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed bugs identified in sprint retrospective</div>"
+    }
+  },
+  {
+    "id": "m_0136",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T01:14:24.320058Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed bugs identified in sprint retrospective</div>"
+    }
+  },
+  {
+    "id": "m_0137",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T02:33:38.098123Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Great retrospective insights today!</div>"
+    }
+  },
+  {
+    "id": "m_0138",
+    "replyToId": null,
+    "createdDateTime": "2024-05-22T23:56:22.657076Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0139",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T00:50:14.547233Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Created API endpoints for new mobile features</div>"
+    }
+  },
+  {
+    "id": "m_0140",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T02:48:54.749314Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Loving our team velocity this sprint</div>"
+    }
+  },
+  {
+    "id": "m_0141",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T01:34:33.501311Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Excellent demo in the sprint review!</div>"
+    }
+  },
+  {
+    "id": "m_0142",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T02:59:26.946131Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Excellent demo in the sprint review!</div>"
+    }
+  },
+  {
+    "id": "m_0143",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T02:33:44.815854Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0144",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T04:33:56.961806Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0145",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T03:50:15.315034Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0146",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T04:06:41.365214Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Excellent demo in the sprint review!</div>"
+    }
+  },
+  {
+    "id": "m_0147",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T03:03:46.863532Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized database queries reducing load time by 60%</div>"
+    }
+  },
+  {
+    "id": "m_0148",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T04:23:40.559432Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0149",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T04:19:48.969692Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Updated user stories based on stakeholder feedback</div>"
+    }
+  },
+  {
+    "id": "m_0150",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T04:47:11.941760Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_nora_allen",
+        "displayName": "Nora Allen",
+        "team": "Platform"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0151",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T03:54:37.649670Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_taylor_johnson",
+        "displayName": "Taylor Johnson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Great retrospective insights today!</div>"
+    }
+  },
+  {
+    "id": "m_0152",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T05:24:46.784861Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_taylor_johnson",
+        "displayName": "Taylor Johnson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Created API endpoints for new mobile features</div>"
+    }
+  },
+  {
+    "id": "m_0153",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T04:03:09.259243Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_taylor_johnson",
+        "displayName": "Taylor Johnson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0154",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T07:21:06.372896Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_taylor_johnson",
+        "displayName": "Taylor Johnson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Created API endpoints for new mobile features</div>"
+    }
+  },
+  {
+    "id": "m_0155",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T05:34:52.668917Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_taylor_johnson",
+        "displayName": "Taylor Johnson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0156",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T05:31:53.915988Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_taylor_johnson",
+        "displayName": "Taylor Johnson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0157",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T06:46:11.678819Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_taylor_johnson",
+        "displayName": "Taylor Johnson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Great retrospective insights today!</div>"
+    }
+  },
+  {
+    "id": "m_0158",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T07:11:30.386758Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_taylor_johnson",
+        "displayName": "Taylor Johnson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed bugs identified in sprint retrospective</div>"
+    }
+  },
+  {
+    "id": "m_0159",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T06:21:10.161567Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_taylor_johnson",
+        "displayName": "Taylor Johnson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0160",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T08:09:04.677818Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_taylor_johnson",
+        "displayName": "Taylor Johnson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Excellent demo in the sprint review!</div>"
+    }
+  },
+  {
+    "id": "m_0161",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T07:31:13.114192Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_kai_thompson",
+        "displayName": "Kai Thompson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Updated user stories based on stakeholder feedback</div>"
+    }
+  },
+  {
+    "id": "m_0162",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T08:40:23.245890Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_kai_thompson",
+        "displayName": "Kai Thompson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0163",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T10:33:48.041980Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_kai_thompson",
+        "displayName": "Kai Thompson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0164",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T09:35:38.829652Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_kai_thompson",
+        "displayName": "Kai Thompson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0165",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T10:48:05.207785Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_kai_thompson",
+        "displayName": "Kai Thompson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized database queries reducing load time by 60%</div>"
+    }
+  },
+  {
+    "id": "m_0166",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T11:27:37.745453Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_kai_thompson",
+        "displayName": "Kai Thompson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Thanks for the pair programming session</div>"
+    }
+  },
+  {
+    "id": "m_0167",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T10:09:47.073505Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_kai_thompson",
+        "displayName": "Kai Thompson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented continuous integration with automated testing</div>"
+    }
+  },
+  {
+    "id": "m_0168",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T11:19:47.806837Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_kai_thompson",
+        "displayName": "Kai Thompson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Thanks for the pair programming session</div>"
+    }
+  },
+  {
+    "id": "m_0169",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T09:39:39.618138Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_kai_thompson",
+        "displayName": "Kai Thompson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Loving our team velocity this sprint</div>"
+    }
+  },
+  {
+    "id": "m_0170",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T10:30:03.316189Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_kai_thompson",
+        "displayName": "Kai Thompson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0171",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T11:10:37.101316Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_kai_thompson",
+        "displayName": "Kai Thompson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0172",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T11:53:50.841048Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_kai_thompson",
+        "displayName": "Kai Thompson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0173",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T11:11:31.214801Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_kai_thompson",
+        "displayName": "Kai Thompson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Created API endpoints for new mobile features</div>"
+    }
+  },
+  {
+    "id": "m_0174",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T14:03:40.180480Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_kai_thompson",
+        "displayName": "Kai Thompson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0175",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T14:23:00.762764Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_kai_thompson",
+        "displayName": "Kai Thompson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0176",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T13:09:37.215253Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_river_taylor",
+        "displayName": "River Taylor",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented continuous integration with automated testing</div>"
+    }
+  },
+  {
+    "id": "m_0177",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T11:56:20.961444Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_river_taylor",
+        "displayName": "River Taylor",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Refactored codebase following SOLID principles</div>"
+    }
+  },
+  {
+    "id": "m_0178",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T14:42:22.893251Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_river_taylor",
+        "displayName": "River Taylor",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Great retrospective insights today!</div>"
+    }
+  },
+  {
+    "id": "m_0179",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T13:20:44.915303Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_river_taylor",
+        "displayName": "River Taylor",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Created API endpoints for new mobile features</div>"
+    }
+  },
+  {
+    "id": "m_0180",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T15:16:11.255167Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_river_taylor",
+        "displayName": "River Taylor",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Excellent demo in the sprint review!</div>"
+    }
+  },
+  {
+    "id": "m_0181",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T15:05:45.842546Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_river_taylor",
+        "displayName": "River Taylor",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Refactored codebase following SOLID principles</div>"
+    }
+  },
+  {
+    "id": "m_0182",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T15:15:19.438017Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_river_taylor",
+        "displayName": "River Taylor",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Excellent demo in the sprint review!</div>"
+    }
+  },
+  {
+    "id": "m_0183",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T16:08:40.907655Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_morgan_brown",
+        "displayName": "Morgan Brown",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Updated user stories based on stakeholder feedback</div>"
+    }
+  },
+  {
+    "id": "m_0184",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T16:19:13.162751Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_morgan_brown",
+        "displayName": "Morgan Brown",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented continuous integration with automated testing</div>"
+    }
+  },
+  {
+    "id": "m_0185",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T14:00:47.471626Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_morgan_brown",
+        "displayName": "Morgan Brown",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Excellent demo in the sprint review!</div>"
+    }
+  },
+  {
+    "id": "m_0186",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T15:39:32.630229Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_morgan_brown",
+        "displayName": "Morgan Brown",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0187",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T15:24:06.029860Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_morgan_brown",
+        "displayName": "Morgan Brown",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented continuous integration with automated testing</div>"
+    }
+  },
+  {
+    "id": "m_0188",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T15:34:33.940330Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_morgan_brown",
+        "displayName": "Morgan Brown",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0189",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T17:25:43.199079Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_morgan_brown",
+        "displayName": "Morgan Brown",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Ready for sprint planning tomorrow</div>"
+    }
+  },
+  {
+    "id": "m_0190",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T16:24:28.618887Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_morgan_brown",
+        "displayName": "Morgan Brown",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized database queries reducing load time by 60%</div>"
+    }
+  },
+  {
+    "id": "m_0191",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T19:01:51.656376Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_morgan_brown",
+        "displayName": "Morgan Brown",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Loving our team velocity this sprint</div>"
+    }
+  },
+  {
+    "id": "m_0192",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T18:26:47.516266Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_morgan_brown",
+        "displayName": "Morgan Brown",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented error tracking and monitoring system</div>"
+    }
+  },
+  {
+    "id": "m_0193",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T15:55:58.484975Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_morgan_brown",
+        "displayName": "Morgan Brown",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0194",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T17:31:26.015822Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_morgan_brown",
+        "displayName": "Morgan Brown",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Ready for sprint planning tomorrow</div>"
+    }
+  },
+  {
+    "id": "m_0195",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T17:09:19.789316Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_luna_robinson",
+        "displayName": "Luna Robinson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Updated user stories based on stakeholder feedback</div>"
+    }
+  },
+  {
+    "id": "m_0196",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T19:42:42.452481Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_luna_robinson",
+        "displayName": "Luna Robinson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Created API endpoints for new mobile features</div>"
+    }
+  },
+  {
+    "id": "m_0197",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T17:09:45.495061Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_luna_robinson",
+        "displayName": "Luna Robinson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Thanks for the pair programming session</div>"
+    }
+  },
+  {
+    "id": "m_0198",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T19:58:19.692740Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_luna_robinson",
+        "displayName": "Luna Robinson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented continuous integration with automated testing</div>"
+    }
+  },
+  {
+    "id": "m_0199",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T19:18:46.430041Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_luna_robinson",
+        "displayName": "Luna Robinson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized database queries reducing load time by 60%</div>"
+    }
+  },
+  {
+    "id": "m_0200",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T18:58:56.685499Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_luna_robinson",
+        "displayName": "Luna Robinson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0201",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T22:07:39.479219Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_luna_robinson",
+        "displayName": "Luna Robinson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented continuous integration with automated testing</div>"
+    }
+  },
+  {
+    "id": "m_0202",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T22:05:57.564731Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_luna_robinson",
+        "displayName": "Luna Robinson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Thanks for the pair programming session</div>"
+    }
+  },
+  {
+    "id": "m_0203",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T19:12:12.701523Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_luna_robinson",
+        "displayName": "Luna Robinson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Loving our team velocity this sprint</div>"
+    }
+  },
+  {
+    "id": "m_0204",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T19:32:42.917901Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_luna_robinson",
+        "displayName": "Luna Robinson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized database queries reducing load time by 60%</div>"
+    }
+  },
+  {
+    "id": "m_0205",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T23:08:28.491702Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_luna_robinson",
+        "displayName": "Luna Robinson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented error tracking and monitoring system</div>"
+    }
+  },
+  {
+    "id": "m_0206",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T22:04:24.089880Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_luna_robinson",
+        "displayName": "Luna Robinson",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Thanks for the pair programming session</div>"
+    }
+  },
+  {
+    "id": "m_0207",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T23:08:48.591910Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_quinn_wilson",
+        "displayName": "Quinn Wilson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed bugs identified in sprint retrospective</div>"
+    }
+  },
+  {
+    "id": "m_0208",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T23:32:50.303874Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_quinn_wilson",
+        "displayName": "Quinn Wilson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0209",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T21:52:55.298229Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_quinn_wilson",
+        "displayName": "Quinn Wilson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed bugs identified in sprint retrospective</div>"
+    }
+  },
+  {
+    "id": "m_0210",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T22:29:13.924797Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_quinn_wilson",
+        "displayName": "Quinn Wilson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented error tracking and monitoring system</div>"
+    }
+  },
+  {
+    "id": "m_0211",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T23:59:29.397009Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_quinn_wilson",
+        "displayName": "Quinn Wilson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0212",
+    "replyToId": null,
+    "createdDateTime": "2024-05-23T23:11:21.379374Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_quinn_wilson",
+        "displayName": "Quinn Wilson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Great retrospective insights today!</div>"
+    }
+  },
+  {
+    "id": "m_0213",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T00:50:10.386342Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_quinn_wilson",
+        "displayName": "Quinn Wilson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented continuous integration with automated testing</div>"
+    }
+  },
+  {
+    "id": "m_0214",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T01:41:07.803859Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_quinn_wilson",
+        "displayName": "Quinn Wilson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized database queries reducing load time by 60%</div>"
+    }
+  },
+  {
+    "id": "m_0215",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T00:42:14.127551Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_quinn_wilson",
+        "displayName": "Quinn Wilson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0216",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T02:17:52.707443Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_quinn_wilson",
+        "displayName": "Quinn Wilson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed bugs identified in sprint retrospective</div>"
+    }
+  },
+  {
+    "id": "m_0217",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T02:26:19.751338Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_quinn_wilson",
+        "displayName": "Quinn Wilson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0218",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T02:07:51.719247Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_quinn_wilson",
+        "displayName": "Quinn Wilson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized database queries reducing load time by 60%</div>"
+    }
+  },
+  {
+    "id": "m_0219",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T02:04:58.002750Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_quinn_wilson",
+        "displayName": "Quinn Wilson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0220",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T01:02:16.110594Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_quinn_wilson",
+        "displayName": "Quinn Wilson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented error tracking and monitoring system</div>"
+    }
+  },
+  {
+    "id": "m_0221",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T03:32:33.636759Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_quinn_wilson",
+        "displayName": "Quinn Wilson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0222",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T02:50:19.505494Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_orion_clark",
+        "displayName": "Orion Clark",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0223",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T03:59:50.184189Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_orion_clark",
+        "displayName": "Orion Clark",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0224",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T02:23:40.566676Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_orion_clark",
+        "displayName": "Orion Clark",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0225",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T02:37:50.975537Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_orion_clark",
+        "displayName": "Orion Clark",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized database queries reducing load time by 60%</div>"
+    }
+  },
+  {
+    "id": "m_0226",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T02:29:54.052297Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_orion_clark",
+        "displayName": "Orion Clark",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Created API endpoints for new mobile features</div>"
+    }
+  },
+  {
+    "id": "m_0227",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T05:06:34.238263Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_orion_clark",
+        "displayName": "Orion Clark",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented error tracking and monitoring system</div>"
+    }
+  },
+  {
+    "id": "m_0228",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T04:49:04.485160Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_orion_clark",
+        "displayName": "Orion Clark",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Great retrospective insights today!</div>"
+    }
+  },
+  {
+    "id": "m_0229",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T02:48:41.477536Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_orion_clark",
+        "displayName": "Orion Clark",
+        "team": "Backend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0230",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T04:53:58.972686Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_moore",
+        "displayName": "Sage Moore",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0231",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T06:43:22.683464Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_moore",
+        "displayName": "Sage Moore",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Refactored codebase following SOLID principles</div>"
+    }
+  },
+  {
+    "id": "m_0232",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T03:47:53.483366Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_moore",
+        "displayName": "Sage Moore",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented continuous integration with automated testing</div>"
+    }
+  },
+  {
+    "id": "m_0233",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T05:23:51.042953Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_moore",
+        "displayName": "Sage Moore",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented error tracking and monitoring system</div>"
+    }
+  },
+  {
+    "id": "m_0234",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T07:08:17.644263Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_moore",
+        "displayName": "Sage Moore",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Loving our team velocity this sprint</div>"
+    }
+  },
+  {
+    "id": "m_0235",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T05:17:07.952521Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_moore",
+        "displayName": "Sage Moore",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed bugs identified in sprint retrospective</div>"
+    }
+  },
+  {
+    "id": "m_0236",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T06:26:59.253241Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_moore",
+        "displayName": "Sage Moore",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0237",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T07:25:46.212834Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_moore",
+        "displayName": "Sage Moore",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented continuous integration with automated testing</div>"
+    }
+  },
+  {
+    "id": "m_0238",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T06:04:30.159492Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_moore",
+        "displayName": "Sage Moore",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented continuous integration with automated testing</div>"
+    }
+  },
+  {
+    "id": "m_0239",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T06:20:47.144140Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_moore",
+        "displayName": "Sage Moore",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Thanks for the pair programming session</div>"
+    }
+  },
+  {
+    "id": "m_0240",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T06:16:37.567618Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_sage_moore",
+        "displayName": "Sage Moore",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Excellent demo in the sprint review!</div>"
+    }
+  },
+  {
+    "id": "m_0241",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T09:50:18.716993Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zara_garcia",
+        "displayName": "Zara Garcia",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Thanks for the pair programming session</div>"
+    }
+  },
+  {
+    "id": "m_0242",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T10:21:43.689531Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zara_garcia",
+        "displayName": "Zara Garcia",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Refactored codebase following SOLID principles</div>"
+    }
+  },
+  {
+    "id": "m_0243",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T07:45:32.379866Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zara_garcia",
+        "displayName": "Zara Garcia",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0244",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T07:19:41.469697Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zara_garcia",
+        "displayName": "Zara Garcia",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented error tracking and monitoring system</div>"
+    }
+  },
+  {
+    "id": "m_0245",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T08:20:44.442386Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zara_garcia",
+        "displayName": "Zara Garcia",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented continuous integration with automated testing</div>"
+    }
+  },
+  {
+    "id": "m_0246",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T11:08:46.621175Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zara_garcia",
+        "displayName": "Zara Garcia",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0247",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T09:19:05.159840Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zara_garcia",
+        "displayName": "Zara Garcia",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Optimized database queries reducing load time by 60%</div>"
+    }
+  },
+  {
+    "id": "m_0248",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T11:02:12.610153Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zara_garcia",
+        "displayName": "Zara Garcia",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0249",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T09:58:38.813903Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zara_garcia",
+        "displayName": "Zara Garcia",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Updated user stories based on stakeholder feedback</div>"
+    }
+  },
+  {
+    "id": "m_0250",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T09:12:31.058652Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_zara_garcia",
+        "displayName": "Zara Garcia",
+        "team": "Security"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented continuous integration with automated testing</div>"
+    }
+  },
+  {
+    "id": "m_0251",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T09:27:28.992050Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Ready for sprint planning tomorrow</div>"
+    }
+  },
+  {
+    "id": "m_0252",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T10:40:41.063437Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Thanks for the pair programming session</div>"
+    }
+  },
+  {
+    "id": "m_0253",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T11:07:49.038013Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0254",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T10:54:37.188175Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Loving our team velocity this sprint</div>"
+    }
+  },
+  {
+    "id": "m_0255",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T11:47:48.067595Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Updated user stories based on stakeholder feedback</div>"
+    }
+  },
+  {
+    "id": "m_0256",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T12:44:25.601271Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Built event-driven architecture for better scalability</div>"
+    }
+  },
+  {
+    "id": "m_0257",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T12:15:01.526245Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Fixed bugs identified in sprint retrospective</div>"
+    }
+  },
+  {
+    "id": "m_0258",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T12:10:34.906300Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Ready for sprint planning tomorrow</div>"
+    }
+  },
+  {
+    "id": "m_0259",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T12:34:08.166049Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Loving our team velocity this sprint</div>"
+    }
+  },
+  {
+    "id": "m_0260",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T14:08:20.699404Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Completed sprint goal: microservices communication layer</div>"
+    }
+  },
+  {
+    "id": "m_0261",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T14:26:23.163912Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0262",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T13:48:09.990928Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Created API endpoints for new mobile features</div>"
+    }
+  },
+  {
+    "id": "m_0263",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T15:28:02.127207Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Implemented continuous integration with automated testing</div>"
+    }
+  },
+  {
+    "id": "m_0264",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T15:02:20.779721Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Thanks for the pair programming session</div>"
+    }
+  },
+  {
+    "id": "m_0265",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T17:27:11.327175Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Updated user stories based on stakeholder feedback</div>"
+    }
+  },
+  {
+    "id": "m_0266",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T17:47:47.986460Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Excellent demo in the sprint review!</div>"
+    }
+  },
+  {
+    "id": "m_0267",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T15:16:51.456796Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Added feature flags for gradual rollout strategy</div>"
+    }
+  },
+  {
+    "id": "m_0268",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T17:55:56.787177Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Ready for sprint planning tomorrow</div>"
+    }
+  },
+  {
+    "id": "m_0269",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T16:58:32.302264Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Great retrospective insights today!</div>"
+    }
+  },
+  {
+    "id": "m_0270",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T18:49:02.991838Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Loving our team velocity this sprint</div>"
+    }
+  },
+  {
+    "id": "m_0271",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T19:01:20.572189Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Excellent demo in the sprint review!</div>"
+    }
+  },
+  {
+    "id": "m_0272",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T18:01:34.060115Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Refactored codebase following SOLID principles</div>"
+    }
+  },
+  {
+    "id": "m_0273",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T18:09:53.152861Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Ready for sprint planning tomorrow</div>"
+    }
+  },
+  {
+    "id": "m_0274",
+    "replyToId": null,
+    "createdDateTime": "2024-05-24T17:43:58.546034Z",
+    "from": {
+      "user": {
+        "id": "teams_guid_phoenix_anderson",
+        "displayName": "Phoenix Anderson",
+        "team": "Frontend"
+      }
+    },
+    "body": {
+      "contentType": "html",
+      "content": "<div>Thanks for the pair programming session</div>"
+    }
+  }
+]

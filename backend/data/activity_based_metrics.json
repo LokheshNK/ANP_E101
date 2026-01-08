@@ -1,0 +1,1602 @@
+[
+  {
+    "user_id": "teams_guid_emma",
+    "name": "Emma",
+    "team": "QA",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 7,
+      "days_absent": 2,
+      "attendance_rate": 0.863,
+      "commit_active_days": 2,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.222
+    },
+    "activity_metrics": {
+      "total_commits": 27,
+      "total_messages": 3,
+      "avg_commits_per_active_day": 13.5,
+      "avg_messages_per_active_day": 1.5
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.2,
+      "consistency_score": 0.37,
+      "cross_team_interactions": 3,
+      "communication_frequency": 0.33
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.1,
+      "improvement_indicators": 1,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.833,
+      "activity_diversity": 0.167
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.478,
+      "technical_activity": 3.0,
+      "communication_activity": 0.33
+    }
+  },
+  {
+    "user_id": "teams_guid_amelia",
+    "name": "Amelia",
+    "team": "UI/UX",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 5,
+      "days_absent": 4,
+      "attendance_rate": 0.622,
+      "commit_active_days": 2,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.222
+    },
+    "activity_metrics": {
+      "total_commits": 11,
+      "total_messages": 3,
+      "avg_commits_per_active_day": 5.5,
+      "avg_messages_per_active_day": 1.5
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.2,
+      "consistency_score": 0.37,
+      "cross_team_interactions": 3,
+      "communication_frequency": 0.33
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.0,
+      "improvement_indicators": 0,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.833,
+      "activity_diversity": 0.167
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.398,
+      "technical_activity": 1.22,
+      "communication_activity": 0.33
+    }
+  },
+  {
+    "user_id": "teams_guid_mia",
+    "name": "Mia",
+    "team": "UI/UX",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 5,
+      "days_absent": 4,
+      "attendance_rate": 0.618,
+      "commit_active_days": 1,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.222
+    },
+    "activity_metrics": {
+      "total_commits": 16,
+      "total_messages": 2,
+      "avg_commits_per_active_day": 8.0,
+      "avg_messages_per_active_day": 1.0
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.133,
+      "consistency_score": 0.37,
+      "cross_team_interactions": 2,
+      "communication_frequency": 0.22
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.0,
+      "improvement_indicators": 0,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.556,
+      "activity_diversity": 0.111
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.374,
+      "technical_activity": 1.78,
+      "communication_activity": 0.22
+    }
+  },
+  {
+    "user_id": "teams_guid_jordan",
+    "name": "Jordan",
+    "team": "QA",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 5,
+      "days_absent": 4,
+      "attendance_rate": 0.659,
+      "commit_active_days": 1,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.222
+    },
+    "activity_metrics": {
+      "total_commits": 16,
+      "total_messages": 3,
+      "avg_commits_per_active_day": 8.0,
+      "avg_messages_per_active_day": 1.5
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.2,
+      "consistency_score": 0.37,
+      "cross_team_interactions": 3,
+      "communication_frequency": 0.33
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.0,
+      "improvement_indicators": 0,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.556,
+      "activity_diversity": 0.111
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.41,
+      "technical_activity": 1.78,
+      "communication_activity": 0.33
+    }
+  },
+  {
+    "user_id": "teams_guid_lucas",
+    "name": "Lucas",
+    "team": "UI/UX",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 8,
+      "days_absent": 1,
+      "attendance_rate": 0.898,
+      "commit_active_days": 2,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.333
+    },
+    "activity_metrics": {
+      "total_commits": 18,
+      "total_messages": 3,
+      "avg_commits_per_active_day": 6.0,
+      "avg_messages_per_active_day": 1.0
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.2,
+      "consistency_score": 0.556,
+      "cross_team_interactions": 3,
+      "communication_frequency": 0.33
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.1,
+      "improvement_indicators": 1,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.833,
+      "activity_diversity": 0.167
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.551,
+      "technical_activity": 2.0,
+      "communication_activity": 0.33
+    }
+  },
+  {
+    "user_id": "teams_guid_alexander",
+    "name": "Alexander",
+    "team": "UI/UX",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 6,
+      "days_absent": 3,
+      "attendance_rate": 0.777,
+      "commit_active_days": 1,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.222
+    },
+    "activity_metrics": {
+      "total_commits": 24,
+      "total_messages": 3,
+      "avg_commits_per_active_day": 12.0,
+      "avg_messages_per_active_day": 1.5
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.2,
+      "consistency_score": 0.37,
+      "cross_team_interactions": 3,
+      "communication_frequency": 0.33
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.1,
+      "improvement_indicators": 1,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.556,
+      "activity_diversity": 0.111
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.449,
+      "technical_activity": 2.67,
+      "communication_activity": 0.33
+    }
+  },
+  {
+    "user_id": "teams_guid_benjamin",
+    "name": "Benjamin",
+    "team": "UI/UX",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 7,
+      "days_absent": 2,
+      "attendance_rate": 0.857,
+      "commit_active_days": 2,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.333
+    },
+    "activity_metrics": {
+      "total_commits": 15,
+      "total_messages": 3,
+      "avg_commits_per_active_day": 5.0,
+      "avg_messages_per_active_day": 1.0
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.2,
+      "consistency_score": 0.556,
+      "cross_team_interactions": 3,
+      "communication_frequency": 0.33
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.0,
+      "improvement_indicators": 0,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.833,
+      "activity_diversity": 0.167
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.538,
+      "technical_activity": 1.67,
+      "communication_activity": 0.33
+    }
+  },
+  {
+    "user_id": "teams_guid_ava",
+    "name": "Ava",
+    "team": "DevOps",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 5,
+      "days_absent": 4,
+      "attendance_rate": 0.658,
+      "commit_active_days": 1,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.222
+    },
+    "activity_metrics": {
+      "total_commits": 19,
+      "total_messages": 3,
+      "avg_commits_per_active_day": 9.5,
+      "avg_messages_per_active_day": 1.5
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.2,
+      "consistency_score": 0.37,
+      "cross_team_interactions": 3,
+      "communication_frequency": 0.33
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.1,
+      "improvement_indicators": 1,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.556,
+      "activity_diversity": 0.111
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.41,
+      "technical_activity": 2.11,
+      "communication_activity": 0.33
+    }
+  },
+  {
+    "user_id": "teams_guid_noah",
+    "name": "Noah",
+    "team": "QA",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 6,
+      "days_absent": 3,
+      "attendance_rate": 0.708,
+      "commit_active_days": 1,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.222
+    },
+    "activity_metrics": {
+      "total_commits": 11,
+      "total_messages": 3,
+      "avg_commits_per_active_day": 5.5,
+      "avg_messages_per_active_day": 1.5
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.2,
+      "consistency_score": 0.37,
+      "cross_team_interactions": 3,
+      "communication_frequency": 0.33
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.0,
+      "improvement_indicators": 0,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.556,
+      "activity_diversity": 0.111
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.426,
+      "technical_activity": 1.22,
+      "communication_activity": 0.33
+    }
+  },
+  {
+    "user_id": "teams_guid_abigail",
+    "name": "Abigail",
+    "team": "QA",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 6,
+      "days_absent": 3,
+      "attendance_rate": 0.696,
+      "commit_active_days": 1,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.222
+    },
+    "activity_metrics": {
+      "total_commits": 11,
+      "total_messages": 7,
+      "avg_commits_per_active_day": 5.5,
+      "avg_messages_per_active_day": 3.5
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.467,
+      "consistency_score": 0.37,
+      "cross_team_interactions": 7,
+      "communication_frequency": 0.78
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.1,
+      "help_indicators": 1,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.0,
+      "improvement_indicators": 0,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.556,
+      "activity_diversity": 0.111
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.511,
+      "technical_activity": 1.22,
+      "communication_activity": 0.78
+    }
+  },
+  {
+    "user_id": "teams_guid_taylor",
+    "name": "Taylor",
+    "team": "DevOps",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 7,
+      "days_absent": 2,
+      "attendance_rate": 0.783,
+      "commit_active_days": 1,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.222
+    },
+    "activity_metrics": {
+      "total_commits": 6,
+      "total_messages": 3,
+      "avg_commits_per_active_day": 3.0,
+      "avg_messages_per_active_day": 1.5
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.2,
+      "consistency_score": 0.37,
+      "cross_team_interactions": 3,
+      "communication_frequency": 0.33
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.1,
+      "improvement_indicators": 1,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.556,
+      "activity_diversity": 0.111
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.451,
+      "technical_activity": 0.67,
+      "communication_activity": 0.33
+    }
+  },
+  {
+    "user_id": "teams_guid_mason",
+    "name": "Mason",
+    "team": "QA",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 5,
+      "days_absent": 4,
+      "attendance_rate": 0.626,
+      "commit_active_days": 0,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.111
+    },
+    "activity_metrics": {
+      "total_commits": 0,
+      "total_messages": 3,
+      "avg_commits_per_active_day": 0.0,
+      "avg_messages_per_active_day": 3.0
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.2,
+      "consistency_score": 0.185,
+      "cross_team_interactions": 3,
+      "communication_frequency": 0.33
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.0,
+      "improvement_indicators": 0,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.278,
+      "activity_diversity": 0.056
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.337,
+      "technical_activity": 0.0,
+      "communication_activity": 0.33
+    }
+  },
+  {
+    "user_id": "teams_guid_william",
+    "name": "William",
+    "team": "UI/UX",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 6,
+      "days_absent": 3,
+      "attendance_rate": 0.713,
+      "commit_active_days": 0,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.111
+    },
+    "activity_metrics": {
+      "total_commits": 0,
+      "total_messages": 3,
+      "avg_commits_per_active_day": 0.0,
+      "avg_messages_per_active_day": 3.0
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.2,
+      "consistency_score": 0.185,
+      "cross_team_interactions": 3,
+      "communication_frequency": 0.33
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.1,
+      "improvement_indicators": 1,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.278,
+      "activity_diversity": 0.056
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.366,
+      "technical_activity": 0.0,
+      "communication_activity": 0.33
+    }
+  },
+  {
+    "user_id": "teams_guid_olivia",
+    "name": "Olivia",
+    "team": "UI/UX",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 5,
+      "days_absent": 4,
+      "attendance_rate": 0.623,
+      "commit_active_days": 0,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.111
+    },
+    "activity_metrics": {
+      "total_commits": 0,
+      "total_messages": 3,
+      "avg_commits_per_active_day": 0.0,
+      "avg_messages_per_active_day": 3.0
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.2,
+      "consistency_score": 0.185,
+      "cross_team_interactions": 3,
+      "communication_frequency": 0.33
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.1,
+      "improvement_indicators": 1,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.278,
+      "activity_diversity": 0.056
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.336,
+      "technical_activity": 0.0,
+      "communication_activity": 0.33
+    }
+  },
+  {
+    "user_id": "teams_guid_sophia",
+    "name": "Sophia",
+    "team": "DevOps",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 5,
+      "days_absent": 4,
+      "attendance_rate": 0.661,
+      "commit_active_days": 0,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.111
+    },
+    "activity_metrics": {
+      "total_commits": 0,
+      "total_messages": 2,
+      "avg_commits_per_active_day": 0.0,
+      "avg_messages_per_active_day": 2.0
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.133,
+      "consistency_score": 0.185,
+      "cross_team_interactions": 2,
+      "communication_frequency": 0.22
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.0,
+      "improvement_indicators": 0,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.278,
+      "activity_diversity": 0.056
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.327,
+      "technical_activity": 0.0,
+      "communication_activity": 0.22
+    }
+  },
+  {
+    "user_id": "teams_guid_zoe_walker",
+    "name": "Zoe Walker",
+    "team": "Backend",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 6,
+      "days_absent": 3,
+      "attendance_rate": 0.675,
+      "commit_active_days": 1,
+      "communication_active_days": 2,
+      "raw_activity_rate": 0.333
+    },
+    "activity_metrics": {
+      "total_commits": 8,
+      "total_messages": 11,
+      "avg_commits_per_active_day": 2.67,
+      "avg_messages_per_active_day": 3.67
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.733,
+      "consistency_score": 0.556,
+      "cross_team_interactions": 11,
+      "communication_frequency": 1.22
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.1,
+      "improvement_indicators": 1,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.833,
+      "activity_diversity": 0.167
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.655,
+      "technical_activity": 0.89,
+      "communication_activity": 1.22
+    }
+  },
+  {
+    "user_id": "teams_guid_sage_harris",
+    "name": "Sage Harris",
+    "team": "Backend",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 6,
+      "days_absent": 3,
+      "attendance_rate": 0.753,
+      "commit_active_days": 1,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.222
+    },
+    "activity_metrics": {
+      "total_commits": 6,
+      "total_messages": 11,
+      "avg_commits_per_active_day": 3.0,
+      "avg_messages_per_active_day": 5.5
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.733,
+      "consistency_score": 0.37,
+      "cross_team_interactions": 11,
+      "communication_frequency": 1.22
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.1,
+      "improvement_indicators": 1,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.556,
+      "activity_diversity": 0.111
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.619,
+      "technical_activity": 0.67,
+      "communication_activity": 1.22
+    }
+  },
+  {
+    "user_id": "teams_guid_rowan_jackson",
+    "name": "Rowan Jackson",
+    "team": "Platform",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 6,
+      "days_absent": 3,
+      "attendance_rate": 0.759,
+      "commit_active_days": 1,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.222
+    },
+    "activity_metrics": {
+      "total_commits": 16,
+      "total_messages": 11,
+      "avg_commits_per_active_day": 8.0,
+      "avg_messages_per_active_day": 5.5
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.733,
+      "consistency_score": 0.37,
+      "cross_team_interactions": 11,
+      "communication_frequency": 1.22
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.2,
+      "improvement_indicators": 2,
+      "proactive_contributions": 1
+    },
+    "learning_metrics": {
+      "learning_score": 0.556,
+      "activity_diversity": 0.111
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.621,
+      "technical_activity": 1.78,
+      "communication_activity": 1.22
+    }
+  },
+  {
+    "user_id": "teams_guid_eli_hall",
+    "name": "Eli Hall",
+    "team": "Backend",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 8,
+      "days_absent": 1,
+      "attendance_rate": 0.898,
+      "commit_active_days": 2,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.333
+    },
+    "activity_metrics": {
+      "total_commits": 16,
+      "total_messages": 8,
+      "avg_commits_per_active_day": 5.33,
+      "avg_messages_per_active_day": 2.67
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.533,
+      "consistency_score": 0.556,
+      "cross_team_interactions": 8,
+      "communication_frequency": 0.89
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.0,
+      "improvement_indicators": 0,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.833,
+      "activity_diversity": 0.167
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.662,
+      "technical_activity": 1.78,
+      "communication_activity": 0.89
+    }
+  },
+  {
+    "user_id": "teams_guid_skylar_thomas",
+    "name": "Skylar Thomas",
+    "team": "Platform",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 8,
+      "days_absent": 1,
+      "attendance_rate": 0.953,
+      "commit_active_days": 2,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.333
+    },
+    "activity_metrics": {
+      "total_commits": 10,
+      "total_messages": 23,
+      "avg_commits_per_active_day": 3.33,
+      "avg_messages_per_active_day": 7.67
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 1.0,
+      "consistency_score": 0.556,
+      "cross_team_interactions": 23,
+      "communication_frequency": 2.56
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.4,
+      "improvement_indicators": 4,
+      "proactive_contributions": 2
+    },
+    "learning_metrics": {
+      "learning_score": 0.833,
+      "activity_diversity": 0.167
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.836,
+      "technical_activity": 1.11,
+      "communication_activity": 2.56
+    }
+  },
+  {
+    "user_id": "teams_guid_nova_martin",
+    "name": "Nova Martin",
+    "team": "Platform",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 6,
+      "days_absent": 3,
+      "attendance_rate": 0.744,
+      "commit_active_days": 1,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.222
+    },
+    "activity_metrics": {
+      "total_commits": 11,
+      "total_messages": 15,
+      "avg_commits_per_active_day": 5.5,
+      "avg_messages_per_active_day": 7.5
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 1.0,
+      "consistency_score": 0.37,
+      "cross_team_interactions": 15,
+      "communication_frequency": 1.67
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.2,
+      "improvement_indicators": 2,
+      "proactive_contributions": 1
+    },
+    "learning_metrics": {
+      "learning_score": 0.556,
+      "activity_diversity": 0.111
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.705,
+      "technical_activity": 1.22,
+      "communication_activity": 1.67
+    }
+  },
+  {
+    "user_id": "teams_guid_nora_allen",
+    "name": "Nora Allen",
+    "team": "Platform",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 8,
+      "days_absent": 1,
+      "attendance_rate": 0.917,
+      "commit_active_days": 1,
+      "communication_active_days": 2,
+      "raw_activity_rate": 0.333
+    },
+    "activity_metrics": {
+      "total_commits": 14,
+      "total_messages": 24,
+      "avg_commits_per_active_day": 4.67,
+      "avg_messages_per_active_day": 8.0
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 1.0,
+      "consistency_score": 0.556,
+      "cross_team_interactions": 24,
+      "communication_frequency": 2.67
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.1,
+      "improvement_indicators": 1,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.833,
+      "activity_diversity": 0.167
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.824,
+      "technical_activity": 1.56,
+      "communication_activity": 2.67
+    }
+  },
+  {
+    "user_id": "teams_guid_taylor_johnson",
+    "name": "Taylor Johnson",
+    "team": "Frontend",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 8,
+      "days_absent": 1,
+      "attendance_rate": 0.915,
+      "commit_active_days": 2,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.333
+    },
+    "activity_metrics": {
+      "total_commits": 16,
+      "total_messages": 10,
+      "avg_commits_per_active_day": 5.33,
+      "avg_messages_per_active_day": 3.33
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.667,
+      "consistency_score": 0.556,
+      "cross_team_interactions": 10,
+      "communication_frequency": 1.11
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.0,
+      "improvement_indicators": 0,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.833,
+      "activity_diversity": 0.167
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.712,
+      "technical_activity": 1.78,
+      "communication_activity": 1.11
+    }
+  },
+  {
+    "user_id": "teams_guid_kai_thompson",
+    "name": "Kai Thompson",
+    "team": "Backend",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 8,
+      "days_absent": 1,
+      "attendance_rate": 0.916,
+      "commit_active_days": 2,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.333
+    },
+    "activity_metrics": {
+      "total_commits": 19,
+      "total_messages": 15,
+      "avg_commits_per_active_day": 6.33,
+      "avg_messages_per_active_day": 5.0
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 1.0,
+      "consistency_score": 0.556,
+      "cross_team_interactions": 15,
+      "communication_frequency": 1.67
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.1,
+      "improvement_indicators": 1,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.833,
+      "activity_diversity": 0.167
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.824,
+      "technical_activity": 2.11,
+      "communication_activity": 1.67
+    }
+  },
+  {
+    "user_id": "teams_guid_river_taylor",
+    "name": "River Taylor",
+    "team": "Backend",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 7,
+      "days_absent": 2,
+      "attendance_rate": 0.819,
+      "commit_active_days": 1,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.222
+    },
+    "activity_metrics": {
+      "total_commits": 8,
+      "total_messages": 7,
+      "avg_commits_per_active_day": 4.0,
+      "avg_messages_per_active_day": 3.5
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.467,
+      "consistency_score": 0.37,
+      "cross_team_interactions": 7,
+      "communication_frequency": 0.78
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.2,
+      "improvement_indicators": 2,
+      "proactive_contributions": 1
+    },
+    "learning_metrics": {
+      "learning_score": 0.556,
+      "activity_diversity": 0.111
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.552,
+      "technical_activity": 0.89,
+      "communication_activity": 0.78
+    }
+  },
+  {
+    "user_id": "teams_guid_morgan_brown",
+    "name": "Morgan Brown",
+    "team": "Security",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 8,
+      "days_absent": 1,
+      "attendance_rate": 0.936,
+      "commit_active_days": 2,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.333
+    },
+    "activity_metrics": {
+      "total_commits": 17,
+      "total_messages": 12,
+      "avg_commits_per_active_day": 5.67,
+      "avg_messages_per_active_day": 4.0
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.8,
+      "consistency_score": 0.556,
+      "cross_team_interactions": 12,
+      "communication_frequency": 1.33
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.1,
+      "improvement_indicators": 1,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.833,
+      "activity_diversity": 0.167
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.764,
+      "technical_activity": 1.89,
+      "communication_activity": 1.33
+    }
+  },
+  {
+    "user_id": "teams_guid_luna_robinson",
+    "name": "Luna Robinson",
+    "team": "Backend",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 6,
+      "days_absent": 3,
+      "attendance_rate": 0.756,
+      "commit_active_days": 2,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.333
+    },
+    "activity_metrics": {
+      "total_commits": 8,
+      "total_messages": 12,
+      "avg_commits_per_active_day": 2.67,
+      "avg_messages_per_active_day": 4.0
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.8,
+      "consistency_score": 0.556,
+      "cross_team_interactions": 12,
+      "communication_frequency": 1.33
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.2,
+      "improvement_indicators": 2,
+      "proactive_contributions": 1
+    },
+    "learning_metrics": {
+      "learning_score": 0.833,
+      "activity_diversity": 0.167
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.704,
+      "technical_activity": 0.89,
+      "communication_activity": 1.33
+    }
+  },
+  {
+    "user_id": "teams_guid_quinn_wilson",
+    "name": "Quinn Wilson",
+    "team": "Frontend",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 8,
+      "days_absent": 1,
+      "attendance_rate": 0.938,
+      "commit_active_days": 1,
+      "communication_active_days": 2,
+      "raw_activity_rate": 0.333
+    },
+    "activity_metrics": {
+      "total_commits": 16,
+      "total_messages": 15,
+      "avg_commits_per_active_day": 5.33,
+      "avg_messages_per_active_day": 5.0
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 1.0,
+      "consistency_score": 0.556,
+      "cross_team_interactions": 15,
+      "communication_frequency": 1.67
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.2,
+      "improvement_indicators": 2,
+      "proactive_contributions": 1
+    },
+    "learning_metrics": {
+      "learning_score": 0.833,
+      "activity_diversity": 0.167
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.831,
+      "technical_activity": 1.78,
+      "communication_activity": 1.67
+    }
+  },
+  {
+    "user_id": "teams_guid_orion_clark",
+    "name": "Orion Clark",
+    "team": "Backend",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 6,
+      "days_absent": 3,
+      "attendance_rate": 0.729,
+      "commit_active_days": 1,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.222
+    },
+    "activity_metrics": {
+      "total_commits": 14,
+      "total_messages": 8,
+      "avg_commits_per_active_day": 7.0,
+      "avg_messages_per_active_day": 4.0
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.533,
+      "consistency_score": 0.37,
+      "cross_team_interactions": 8,
+      "communication_frequency": 0.89
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.1,
+      "improvement_indicators": 1,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.556,
+      "activity_diversity": 0.111
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.544,
+      "technical_activity": 1.56,
+      "communication_activity": 0.89
+    }
+  },
+  {
+    "user_id": "teams_guid_sage_moore",
+    "name": "Sage Moore",
+    "team": "Frontend",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 7,
+      "days_absent": 2,
+      "attendance_rate": 0.888,
+      "commit_active_days": 2,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.333
+    },
+    "activity_metrics": {
+      "total_commits": 16,
+      "total_messages": 11,
+      "avg_commits_per_active_day": 5.33,
+      "avg_messages_per_active_day": 3.67
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.733,
+      "consistency_score": 0.556,
+      "cross_team_interactions": 11,
+      "communication_frequency": 1.22
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.1,
+      "improvement_indicators": 1,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.833,
+      "activity_diversity": 0.167
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.726,
+      "technical_activity": 1.78,
+      "communication_activity": 1.22
+    }
+  },
+  {
+    "user_id": "teams_guid_zara_garcia",
+    "name": "Zara Garcia",
+    "team": "Security",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 7,
+      "days_absent": 2,
+      "attendance_rate": 0.865,
+      "commit_active_days": 2,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.333
+    },
+    "activity_metrics": {
+      "total_commits": 18,
+      "total_messages": 10,
+      "avg_commits_per_active_day": 6.0,
+      "avg_messages_per_active_day": 3.33
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 0.667,
+      "consistency_score": 0.556,
+      "cross_team_interactions": 10,
+      "communication_frequency": 1.11
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.2,
+      "improvement_indicators": 2,
+      "proactive_contributions": 1
+    },
+    "learning_metrics": {
+      "learning_score": 0.833,
+      "activity_diversity": 0.167
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.696,
+      "technical_activity": 2.0,
+      "communication_activity": 1.11
+    }
+  },
+  {
+    "user_id": "teams_guid_phoenix_anderson",
+    "name": "Phoenix Anderson",
+    "team": "Frontend",
+    "analysis_period": {
+      "start_date": "2024-05-21T07:07:25.613527",
+      "end_date": "2024-05-31T18:06:17.153264",
+      "total_work_days": 9
+    },
+    "attendance_metrics": {
+      "total_work_days": 9,
+      "days_present": 7,
+      "days_absent": 2,
+      "attendance_rate": 0.793,
+      "commit_active_days": 1,
+      "communication_active_days": 1,
+      "raw_activity_rate": 0.222
+    },
+    "activity_metrics": {
+      "total_commits": 13,
+      "total_messages": 24,
+      "avg_commits_per_active_day": 6.5,
+      "avg_messages_per_active_day": 12.0
+    },
+    "collaboration_metrics": {
+      "collaboration_score": 1.0,
+      "consistency_score": 0.37,
+      "cross_team_interactions": 24,
+      "communication_frequency": 2.67
+    },
+    "knowledge_sharing_metrics": {
+      "knowledge_sharing_score": 0.0,
+      "help_indicators": 0,
+      "documentation_contributions": 0
+    },
+    "innovation_metrics": {
+      "innovation_score": 0.1,
+      "improvement_indicators": 1,
+      "proactive_contributions": 0
+    },
+    "learning_metrics": {
+      "learning_score": 0.556,
+      "activity_diversity": 0.111
+    },
+    "behavioral_summary": {
+      "overall_engagement": 0.721,
+      "technical_activity": 1.44,
+      "communication_activity": 2.67
+    }
+  }
+]
