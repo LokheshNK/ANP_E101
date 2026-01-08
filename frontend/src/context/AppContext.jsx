@@ -1,5 +1,9 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
+// 1. DYNAMIC API URL CONFIGURATION
+// On Vercel, it will use the Render URL. Locally, it stays on localhost.
+const API_URL = process.env.REACT_APP_API_URL || "http://127.0.0.1:8000";
+
 const AppContext = createContext();
 
 export const useApp = () => {
@@ -70,7 +74,8 @@ export const AppProvider = ({ children }) => {
 
   const login = async (email, password, company) => {
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/login', {
+      // 2. UPDATED TO USE API_URL
+      const response = await fetch(`${API_URL}/api/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -85,9 +90,10 @@ export const AppProvider = ({ children }) => {
         return { success: true };
       } else {
         const error = await response.json();
-        return { success: false, error: error.detail };
+        return { success: false, error: error.detail || 'Login failed' };
       }
     } catch (error) {
+      console.error('Login error:', error);
       return { success: false, error: 'Network error' };
     }
   };
@@ -109,17 +115,18 @@ export const AppProvider = ({ children }) => {
     if (!user) return { developers: [] };
 
     try {
-      const response = await fetch(`http://127.0.0.1:8000/api/dashboard/${encodeURIComponent(user.company)}`);
+      // 3. UPDATED TO USE API_URL
+      const response = await fetch(`${API_URL}/api/dashboard/${encodeURIComponent(user.company)}`);
       if (response.ok) {
         const data = await response.json();
-        console.log('API Response:', data); // Debug log
+        console.log('API Response received from:', API_URL); 
         return data;
       } else {
         console.error('API Error:', response.status, response.statusText);
         return { developers: [] };
       }
     } catch (error) {
-      console.error('Error fetching data:', error);
+      console.error('Error fetching data from backend:', error);
       return { developers: [] };
     }
   };
