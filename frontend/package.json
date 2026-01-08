@@ -11,9 +11,10 @@
     "recharts": "^2.10.3",
     "tailwindcss": "^3.3.0"
   },
-  "scripts": {
-    "start": "react-scripts start"
-  },
+ "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build"
+},
   "browserslist": {
     "production": [
       ">0.2%",
