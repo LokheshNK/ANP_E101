@@ -180,7 +180,9 @@ web_modules/
 
 # Optional eslint cache
 .eslintcache
-
+frontend/node_modules/
+frontend/build/
+frontend/.env
 # Optional stylelint cache
 .stylelintcache
 
