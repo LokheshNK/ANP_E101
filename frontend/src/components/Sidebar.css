@@ -1,0 +1,218 @@
+.sidebar {
+  width: 320px;
+  background-color: #ffffff;
+  border-right: 2px solid #e5e5e5;
+  padding: 20px;
+  overflow-y: auto;
+  color: #000000;
+}
+
+.sidebar-header {
+  margin-bottom: 30px;
+  text-align: center;
+  border-bottom: 2px solid #e5e5e5;
+  padding-bottom: 20px;
+}
+
+.sidebar-header h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.sidebar-subtitle {
+  color: #22c55e;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.sidebar-section {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.sidebar-section:last-child {
+  border-bottom: none;
+}
+
+.sidebar-section h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.refresh-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.error-message {
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.error-message h3 {
+  color: #dc2626;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.error-message p {
+  color: #991b1b;
+  font-size: 0.9rem;
+}
+
+.selected-point-info {
+  background-color: #f8fffe;
+  border: 1px solid #d1fae5;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.point-id {
+  font-size: 1rem;
+  margin-bottom: 12px;
+  color: #000000;
+}
+
+.point-coords {
+  margin-bottom: 15px;
+}
+
+.coord-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.coord-label {
+  color: #000000;
+  font-weight: 500;
+}
+
+.coord-value {
+  color: #22c55e;
+  font-weight: 600;
+  font-family: monospace;
+}
+
+.quadrant-info {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #d1fae5;
+}
+
+.quadrant-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.quadrant-description {
+  font-size: 0.85rem;
+  color: #374151;
+  line-height: 1.4;
+}
+
+
+.quadrant-guide {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.guide-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.guide-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.guide-color.q1 { background-color: #22c55e; }
+.guide-color.q2 { background-color: #16a34a; }
+.guide-color.q3 { background-color: #15803d; }
+.guide-color.q4 { background-color: #166534; }
+
+.guide-text {
+  font-size: 0.85rem;
+  color: #374151;
+}
+
+.guide-text strong {
+  color: #000000;
+}
+.team-analysis {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.team-card {
+  background-color: #f8fffe;
+  border: 1px solid #d1fae5;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.team-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.team-header h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000000;
+  margin: 0;
+}
+
+.member-count {
+  font-size: 0.8rem;
+  color: #22c55e;
+  font-weight: 500;
+}
+
+.team-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: #374151;
+}
+
+.stat-value {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #22c55e;
+  font-family: monospace;
+}
+
+.point-team {
+  font-size: 1rem;
+  margin-bottom: 12px;
+  color: #000000;
+}
