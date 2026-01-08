@@ -270,28 +270,42 @@ class NLPVisibilityScorer:
         
         # Calculate component scores with weights (adjusted for meeting hours)
         component_weights = {
-            'technical_impact': 0.20,       # 20% - Technical contributions
-            'leadership_influence': 0.15,   # 15% - Leadership and decision making
-            'knowledge_sharing': 0.15,      # 15% - Teaching and documentation
-            'problem_solving': 0.12,        # 12% - Helping others
+            'technical_impact': 0.25,       # 25% - Technical contributions
+            'leadership_influence': 0.20,   # 20% - Leadership and decision making
+            'knowledge_sharing': 0.20,      # 20% - Teaching and documentation
+            'problem_solving': 0.15,        # 15% - Helping others
             'collaboration': 0.10,          # 10% - Team engagement
-            'meeting_engagement': 0.20,     # 20% - Meeting participation (hours)
-            'urgency_priority': 0.04,       # 4% - Handling urgent matters
-            'engagement_questions': 0.04    # 4% - Active participation
+            'meeting_engagement': 0.08,     # 8% - Meeting participation (reduced)
+            'urgency_priority': 0.01,       # 1% - Handling urgent matters
+            'engagement_questions': 0.01    # 1% - Active participation
         }
         
         # Calculate weighted visibility score
         visibility_score = 0.0
         component_scores = {}
         
+        # Check if we have meaningful communication content
+        has_meaningful_communication = len(normalized_messages) > 0 and any(
+            len(msg.strip()) > 10 for msg in normalized_messages
+        )
+        
         for component, weight in component_weights.items():
             if component == 'meeting_engagement':
                 component_score = meeting_engagement
+                # Apply communication penalty to meeting engagement
+                if not has_meaningful_communication:
+                    component_score *= 0.3  # Reduce meeting score by 70% if no meaningful communication
             else:
                 component_score = aggregated_features.get(component, 0.0)
             
             component_scores[component] = component_score
             visibility_score += component_score * weight
+        
+        # Apply communication requirement multiplier
+        if not has_meaningful_communication:
+            # Severe penalty for no communication - meetings alone shouldn't give high visibility
+            communication_penalty = 0.2  # Maximum 20% of full score without communication
+            visibility_score *= communication_penalty
         
         # Apply message quality multiplier (only if we have messages)
         if normalized_messages:
@@ -330,10 +344,12 @@ class NLPVisibilityScorer:
             'message_count': message_count,
             'meeting_hours': meeting_hours,
             'meeting_engagement': round(meeting_engagement, 2),
+            'has_meaningful_communication': has_meaningful_communication,
+            'communication_penalty_applied': not has_meaningful_communication,
             'quality_multiplier': round(quality_multiplier, 2),
             'sentiment_multiplier': round(sentiment_multiplier, 2),
             'frequency_factor': round(frequency_factor, 2),
-            'analysis_summary': self._generate_analysis_summary(component_scores, visibility_score)
+            'analysis_summary': self._generate_analysis_summary(component_scores, visibility_score, has_meaningful_communication)
         }
 
     def _normalize_messages(self, messages: Union[List[str], List[Dict], str]) -> List[str]:
@@ -416,8 +432,11 @@ class NLPVisibilityScorer:
             # Penalty for excessive meeting hours (meeting overload)
             return max(75.0, 100.0 - (meeting_hours - 25.0) * 2.0)
 
-    def _generate_analysis_summary(self, component_scores: Dict[str, float], visibility_score: float) -> str:
+    def _generate_analysis_summary(self, component_scores: Dict[str, float], visibility_score: float, has_meaningful_communication: bool = True) -> str:
         """Generate human-readable analysis summary."""
+        if not has_meaningful_communication:
+            return f"Low visibility ({visibility_score:.1f}/10) - Meeting attendance without meaningful communication"
+        
         if visibility_score >= 8.0:
             level = "Exceptional"
         elif visibility_score >= 6.0:
@@ -431,7 +450,7 @@ class NLPVisibilityScorer:
         
         # Find top contributing components
         sorted_components = sorted(component_scores.items(), key=lambda x: x[1], reverse=True)
-        top_components = [comp[0].replace('_', ' ').title() for comp in sorted_components[:2]]
+        top_components = [comp[0].replace('_', ' ').title() for comp in sorted_components[:2] if comp[1] > 0]
         
         summary = f"{level} visibility ({visibility_score}/10)"
         if top_components:

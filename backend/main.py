@@ -493,14 +493,14 @@ def get_nlp_visibility_demo(company_name: str):
         "analysis_info": {
             "description": "Advanced NLP-based visibility scoring using AI techniques",
             "components": [
-                "Technical Impact (20%): Technical contributions and expertise",
-                "Meeting Engagement (20%): Meeting hours and participation",
-                "Leadership Influence (15%): Decision making and strategic thinking", 
-                "Knowledge Sharing (15%): Teaching, documentation, and mentoring",
-                "Problem Solving (12%): Helping others and troubleshooting",
+                "Technical Impact (25%): Technical contributions and expertise",
+                "Leadership Influence (20%): Decision making and strategic thinking", 
+                "Knowledge Sharing (20%): Teaching, documentation, and mentoring",
+                "Problem Solving (15%): Helping others and troubleshooting",
                 "Collaboration (10%): Team engagement and communication",
-                "Urgency Priority (4%): Handling critical and urgent matters",
-                "Engagement Questions (4%): Active participation and curiosity"
+                "Meeting Engagement (8%): Meeting hours (requires communication)",
+                "Urgency Priority (1%): Handling critical and urgent matters",
+                "Engagement Questions (1%): Active participation and curiosity"
             ]
         }
     }

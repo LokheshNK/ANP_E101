@@ -234,6 +234,13 @@ const NLPVisibilityDemo = () => {
                   <p className="text-sm text-gray-700">
                     <strong>Summary:</strong> {analysis.analysis_summary}
                   </p>
+                  {analysis.communication_penalty_applied && (
+                    <div className="mt-2 p-2 bg-yellow-50 border border-yellow-200 rounded">
+                      <p className="text-xs text-yellow-800">
+                        ⚠️ <strong>Communication Required:</strong> Meeting attendance alone doesn't create high visibility. Meaningful communication is essential.
+                      </p>
+                    </div>
+                  )}
                 </div>
               </div>
 
@@ -314,12 +321,16 @@ const NLPVisibilityDemo = () => {
           <div>
             <h4 className="font-medium text-gray-900 mb-2">Analysis Components:</h4>
             <ul className="space-y-1 text-gray-700">
-              <li>• <strong>Technical Impact (20%)</strong> - Technical contributions</li>
-              <li>• <strong>Leadership Influence (15%)</strong> - Decision making</li>
-              <li>• <strong>Knowledge Sharing (15%)</strong> - Teaching & mentoring</li>
-              <li>• <strong>Problem Solving (12%)</strong> - Helping others</li>
-              <li>• <strong>Meeting Engagement (20%)</strong> - Meeting participation</li>
+              <li>• <strong>Technical Impact (25%)</strong> - Technical contributions</li>
+              <li>• <strong>Leadership Influence (20%)</strong> - Decision making</li>
+              <li>• <strong>Knowledge Sharing (20%)</strong> - Teaching & mentoring</li>
+              <li>• <strong>Problem Solving (15%)</strong> - Helping others</li>
+              <li>• <strong>Collaboration (10%)</strong> - Team engagement</li>
+              <li>• <strong>Meeting Engagement (8%)</strong> - Meeting participation*</li>
             </ul>
+            <p className="text-xs text-gray-500 mt-2">
+              *Meeting hours require meaningful communication for full impact
+            </p>
           </div>
           
           <div>

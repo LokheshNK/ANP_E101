@@ -311,44 +311,31 @@ const Methodology = () => {
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 className="text-lg font-semibold text-gray-800 mb-4">Quadrant Matrix</h4>
               <div className="grid grid-cols-2 gap-2 aspect-square">
-                <div className="bg-green-100 border-2 border-green-300 p-4 rounded-lg flex flex-col items-center justify-center text-center">
-                  <div className="text-2xl mb-2">🌟</div>
-                  <div className="font-semibold text-green-800">Q1: Stars</div>
-                  <div className="text-xs text-green-600 mt-1">High Impact<br/>High Visibility</div>
-                </div>
                 <div className="bg-amber-100 border-2 border-amber-300 p-4 rounded-lg flex flex-col items-center justify-center text-center">
                   <div className="text-2xl mb-2">💎</div>
                   <div className="font-semibold text-amber-800">Q2: Hidden Gems</div>
                   <div className="text-xs text-amber-600 mt-1">High Impact<br/>Low Visibility</div>
                 </div>
-                <div className="bg-blue-100 border-2 border-blue-300 p-4 rounded-lg flex flex-col items-center justify-center text-center">
-                  <div className="text-2xl mb-2">🔗</div>
-                  <div className="font-semibold text-blue-800">Q3: Connectors</div>
-                  <div className="text-xs text-blue-600 mt-1">Low Impact<br/>High Visibility</div>
+                <div className="bg-green-100 border-2 border-green-300 p-4 rounded-lg flex flex-col items-center justify-center text-center">
+                  <div className="text-2xl mb-2">🌟</div>
+                  <div className="font-semibold text-green-800">Q1: Stars</div>
+                  <div className="text-xs text-green-600 mt-1">High Impact<br/>High Visibility</div>
                 </div>
                 <div className="bg-gray-100 border-2 border-gray-300 p-4 rounded-lg flex flex-col items-center justify-center text-center">
                   <div className="text-2xl mb-2">🌱</div>
                   <div className="font-semibold text-gray-800">Q4: Developing</div>
                   <div className="text-xs text-gray-600 mt-1">Low Impact<br/>Low Visibility</div>
                 </div>
+                <div className="bg-blue-100 border-2 border-blue-300 p-4 rounded-lg flex flex-col items-center justify-center text-center">
+                  <div className="text-2xl mb-2">🔗</div>
+                  <div className="font-semibold text-blue-800">Q3: Connectors</div>
+                  <div className="text-xs text-blue-600 mt-1">Low Impact<br/>High Visibility</div>
+                </div>
               </div>
             </div>
 
             {/* Quadrant Details */}
             <div className="space-y-4">
-              <div className="bg-green-50 p-4 rounded-lg border border-green-200">
-                <h5 className="font-semibold text-green-800 mb-2 flex items-center gap-2">
-                  🌟 Quadrant 1: Stars (Top Performers)
-                </h5>
-                <p className="text-sm text-green-700 mb-2">High technical impact with strong team visibility</p>
-                <ul className="text-xs text-green-600 space-y-1">
-                  <li>• Above-median impact AND visibility scores</li>
-                  <li>• Strong technical contributions with good communication</li>
-                  <li>• Natural team leaders and mentors</li>
-                  <li>• Should be considered for promotion/leadership roles</li>
-                </ul>
-              </div>
-
               <div className="bg-amber-50 p-4 rounded-lg border border-amber-200">
                 <h5 className="font-semibold text-amber-800 mb-2 flex items-center gap-2">
                   💎 Quadrant 2: Hidden Gems (High Potential)
@@ -362,16 +349,16 @@ const Methodology = () => {
                 </ul>
               </div>
 
-              <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
-                <h5 className="font-semibold text-blue-800 mb-2 flex items-center gap-2">
-                  🔗 Quadrant 3: Connectors (Communication Focused)
+              <div className="bg-green-50 p-4 rounded-lg border border-green-200">
+                <h5 className="font-semibold text-green-800 mb-2 flex items-center gap-2">
+                  🌟 Quadrant 1: Stars (Top Performers)
                 </h5>
-                <p className="text-sm text-blue-700 mb-2">Great communicators who could increase technical output</p>
-                <ul className="text-xs text-blue-600 space-y-1">
-                  <li>• Below-median impact, above-median visibility</li>
-                  <li>• Strong in meetings, communication, and collaboration</li>
-                  <li>• May benefit from technical skill development</li>
-                  <li>• Good candidates for project management or coordination roles</li>
+                <p className="text-sm text-green-700 mb-2">High technical impact with strong team visibility</p>
+                <ul className="text-xs text-green-600 space-y-1">
+                  <li>• Above-median impact AND visibility scores</li>
+                  <li>• Strong technical contributions with good communication</li>
+                  <li>• Natural team leaders and mentors</li>
+                  <li>• Should be considered for promotion/leadership roles</li>
                 </ul>
               </div>
 
@@ -385,6 +372,19 @@ const Methodology = () => {
                   <li>• May be new team members still learning</li>
                   <li>• Could benefit from mentoring and structured development</li>
                   <li>• Focus on both technical skills and communication</li>
+                </ul>
+              </div>
+
+              <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                <h5 className="font-semibold text-blue-800 mb-2 flex items-center gap-2">
+                  🔗 Quadrant 3: Connectors (Communication Focused)
+                </h5>
+                <p className="text-sm text-blue-700 mb-2">Great communicators who could increase technical output</p>
+                <ul className="text-xs text-blue-600 space-y-1">
+                  <li>• Below-median impact, above-median visibility</li>
+                  <li>• Strong in meetings, communication, and collaboration</li>
+                  <li>• May benefit from technical skill development</li>
+                  <li>• Good candidates for project management or coordination roles</li>
                 </ul>
               </div>
             </div>
