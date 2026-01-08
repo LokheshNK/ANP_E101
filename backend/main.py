@@ -1,13 +1,14 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import Optional, List
+from typing import Optional, List, Union
 import hashlib
 import json
 from database import DevLensDB
 from email_service import EmailService
 from engine.nlp_filter import analyze_communication
 from engine.scoring import process_metrics
+from engine.nlp_visibility_scorer import analyze_message_visibility
 
 app = FastAPI(title="DevLens API")
 
@@ -47,6 +48,11 @@ class EmailSettingsRequest(BaseModel):
 class SendEmailRequest(BaseModel):
     email_type: str  # 'test', 'performance', 'weekly', 'critical'
     manager_id: int
+
+class AnalyzeVisibilityRequest(BaseModel):
+    messages: Union[List[str], List[dict], str]
+    developer_name: Optional[str] = None
+    meeting_hours: Optional[float] = 0.0
 
 @app.get("/")
 def read_root():
@@ -413,6 +419,91 @@ def send_email(request: SendEmailRequest):
         return {"success": True, "message": f"Email sent successfully to {email_address}"}
     else:
         raise HTTPException(status_code=500, detail="Failed to send email")
+
+@app.post("/api/analyze-visibility")
+def analyze_visibility(request: AnalyzeVisibilityRequest):
+    """
+    Analyze message visibility using advanced NLP techniques
+    
+    This endpoint uses AI/NLP to analyze message content and calculate visibility scores
+    based on technical impact, leadership, knowledge sharing, and collaboration patterns.
+    """
+    try:
+        # Use the NLP visibility scorer to analyze messages (including meeting hours)
+        analysis_result = analyze_message_visibility(request.messages, request.meeting_hours)
+        
+        # Add developer name if provided
+        if request.developer_name:
+            analysis_result['developer_name'] = request.developer_name
+        
+        return {
+            "success": True,
+            "analysis": analysis_result,
+            "message": "NLP visibility analysis completed successfully"
+        }
+    
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Analysis failed: {str(e)}")
+
+@app.get("/api/nlp-visibility-demo/{company_name}")
+def get_nlp_visibility_demo(company_name: str):
+    """
+    Demo endpoint showing NLP visibility analysis for all developers in a company
+    """
+    # Decode URL-encoded company name
+    from urllib.parse import unquote
+    company_name = unquote(company_name)
+    
+    # Get developers for this company
+    developers = db.get_company_developers(company_name)
+    
+    if not developers:
+        raise HTTPException(status_code=404, detail=f"No developers found for company: {company_name}")
+    
+    nlp_results = []
+    
+    for dev in developers:
+        messages = dev.get('msgs', [])
+        
+        # Analyze using NLP visibility scorer (including meeting hours)
+        meeting_hours = dev.get('meetings', 0) * 1.5  # Assume 1.5 hours per meeting
+        nlp_analysis = analyze_message_visibility(messages, meeting_hours)
+        
+        # Also get legacy analysis for comparison
+        legacy_comm_score = analyze_communication(messages)
+        
+        nlp_results.append({
+            'developer_name': dev['name'],
+            'team': dev['team'],
+            'message_count': len(messages),
+            'nlp_visibility_analysis': nlp_analysis,
+            'legacy_comm_score': legacy_comm_score,
+            'commits': dev.get('commits', 0),
+            'entropy': dev.get('entropy', 0.0),
+            'meetings': dev.get('meetings', 0)
+        })
+    
+    # Sort by NLP visibility score (descending)
+    nlp_results.sort(key=lambda x: x['nlp_visibility_analysis']['visibility_score'], reverse=True)
+    
+    return {
+        "company": company_name,
+        "nlp_visibility_analysis": nlp_results,
+        "total_developers": len(nlp_results),
+        "analysis_info": {
+            "description": "Advanced NLP-based visibility scoring using AI techniques",
+            "components": [
+                "Technical Impact (20%): Technical contributions and expertise",
+                "Meeting Engagement (20%): Meeting hours and participation",
+                "Leadership Influence (15%): Decision making and strategic thinking", 
+                "Knowledge Sharing (15%): Teaching, documentation, and mentoring",
+                "Problem Solving (12%): Helping others and troubleshooting",
+                "Collaboration (10%): Team engagement and communication",
+                "Urgency Priority (4%): Handling critical and urgent matters",
+                "Engagement Questions (4%): Active participation and curiosity"
+            ]
+        }
+    }
 
 if __name__ == "__main__":
     import uvicorn

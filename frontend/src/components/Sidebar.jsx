@@ -1,5 +1,5 @@
 import React from 'react';
-import { LayoutDashboard, Users, Settings, Shield, LogOut, User } from 'lucide-react';
+import { LayoutDashboard, Users, Settings, Shield, LogOut, User, Brain, BookOpen } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 
 const Sidebar = ({ currentView, onViewChange }) => {
@@ -50,6 +50,28 @@ const Sidebar = ({ currentView, onViewChange }) => {
         >
           <Users size={18} /> 
           <span className="font-medium">Team Analytics</span>
+        </div>
+        <div 
+          onClick={() => onViewChange('nlp-demo')}
+          className={`flex items-center gap-3 p-3 rounded-lg cursor-pointer border transition-all ${
+            currentView === 'nlp-demo' 
+              ? 'bg-blue-100 text-blue-700 border-blue-200' 
+              : 'text-gray-600 hover:text-black hover:bg-gray-100 border-transparent'
+          }`}
+        >
+          <Brain size={18} /> 
+          <span className="font-medium">NLP Visibility</span>
+        </div>
+        <div 
+          onClick={() => onViewChange('methodology')}
+          className={`flex items-center gap-3 p-3 rounded-lg cursor-pointer border transition-all ${
+            currentView === 'methodology' 
+              ? 'bg-purple-100 text-purple-700 border-purple-200' 
+              : 'text-gray-600 hover:text-black hover:bg-gray-100 border-transparent'
+          }`}
+        >
+          <BookOpen size={18} /> 
+          <span className="font-medium">Methodology</span>
         </div>
         <div 
           onClick={() => onViewChange('settings')}

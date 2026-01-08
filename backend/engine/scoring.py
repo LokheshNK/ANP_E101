@@ -2,6 +2,7 @@ import json
 import pandas as pd
 import numpy as np
 from .nlp_filter import TechFilter
+from .nlp_visibility_scorer import NLPVisibilityScorer
 
 class DevLensKeywordScorer:
     def __init__(self, developers_data=None):
@@ -13,6 +14,7 @@ class DevLensKeywordScorer:
         """
         self.developers_data = developers_data or []
         self.filter = TechFilter()
+        self.nlp_visibility_scorer = NLPVisibilityScorer()
         
         # Define our Keyword Weights
         self.tech_weights = {
@@ -25,19 +27,50 @@ class DevLensKeywordScorer:
             "config": 1.5, "setup": 1.3, "install": 1.0, "upgrade": 1.5
         }
 
-    def get_visibility_weight_from_messages(self, messages):
+    def get_visibility_weight_from_messages(self, messages, meeting_hours=0.0):
         """
-        Calculate visibility weight from Slack messages with more realistic scaling
+        Calculate visibility weight from messages using advanced NLP analysis and meeting hours
         
         Args:
             messages (list): List of message dictionaries
+            meeting_hours (float): Number of meeting hours attended
             
         Returns:
-            float: Visibility weight based on message content
+            dict: Comprehensive visibility analysis including score and breakdown
         """
-        if not messages:
-            return 0.1  # Minimum visibility for no communication
+        if not messages and meeting_hours == 0.0:
+            return {
+                'visibility_score': 0.1,
+                'nlp_analysis': {
+                    'visibility_score': 0.0,
+                    'component_scores': {},
+                    'message_count': 0,
+                    'meeting_hours': 0.0,
+                    'analysis_summary': 'No messages or meeting hours to analyze'
+                },
+                'legacy_score': 0.1
+            }
         
+        # Use the new NLP visibility scorer for comprehensive analysis (including meeting hours)
+        nlp_analysis = self.nlp_visibility_scorer.calculate_visibility_score(messages, meeting_hours)
+        
+        # Also calculate legacy score for comparison/fallback
+        legacy_score = self._calculate_legacy_visibility_score(messages)
+        
+        # Combine NLP score with legacy approach (weighted average)
+        # 80% NLP analysis, 20% legacy for stability
+        combined_score = (nlp_analysis['visibility_score'] * 0.8) + (legacy_score * 0.2)
+        
+        return {
+            'visibility_score': combined_score,
+            'nlp_analysis': nlp_analysis,
+            'legacy_score': legacy_score
+        }
+
+    def _calculate_legacy_visibility_score(self, messages):
+        """
+        Legacy visibility calculation method (for comparison and fallback)
+        """
         total_weight = 0.0
         
         for message in messages:
@@ -155,8 +188,10 @@ class DevLensKeywordScorer:
             meetings = dev.get('meetings', 0)
             messages = dev.get('msgs', [])
             
-            # Calculate visibility from communication
-            visibility_weight = self.get_visibility_weight_from_messages(messages)
+            # Calculate visibility from communication using NLP analysis (including meeting hours)
+            meeting_hours = meetings * 1.5  # Assume 1.5 hours per meeting on average
+            visibility_analysis = self.get_visibility_weight_from_messages(messages, meeting_hours)
+            visibility_weight = visibility_analysis['visibility_score']
             
             # Calculate impact from commits and entropy
             impact_score = self.calculate_sophisticated_impact_from_commits(commits, entropy)
@@ -164,7 +199,7 @@ class DevLensKeywordScorer:
             # Calculate meeting engagement
             meeting_data = self.calculate_meeting_engagement_score(meetings)
             
-            # Store detailed statistics
+            # Store detailed statistics including NLP analysis
             detailed_stats[dev_id] = {
                 'total_commits': commits,
                 'total_entropy': entropy,
@@ -175,6 +210,7 @@ class DevLensKeywordScorer:
                 'meeting_engagement': meeting_data["score"],
                 'meeting_quality': meeting_data["quality"],
                 'visibility_weight': visibility_weight,
+                'visibility_analysis': visibility_analysis,  # Include full NLP analysis
                 'name': dev.get('name', 'Unknown'),
                 'team': dev.get('team', 'Unknown')
             }
