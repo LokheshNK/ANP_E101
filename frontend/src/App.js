@@ -1,43 +1,91 @@
 import React, { useState, useEffect } from 'react';
+import { AppProvider, useApp } from './context/AppContext';
+import Login from './components/Login';
 import Sidebar from './components/Sidebar';
 import Dashboard from './components/Dashboard';
+import TeamAnalytics from './components/TeamAnalytics';
+import Settings from './components/Settings';
 import UserStats from './components/UserStats';
 
-function App() {
+const AppContent = () => {
+  const { user, getMockData, settings } = useApp();
   const [data, setData] = useState([]);
   const [selectedUser, setSelectedUser] = useState(null);
+  const [currentView, setCurrentView] = useState('dashboard');
 
   useEffect(() => {
-    fetch('http://localhost:8000/api/dashboard')
-      .then(res => res.json())
-      .then(setData);
-  }, []);
+    const fetchData = async () => {
+      if (user) {
+        // Get data from API based on logged-in user's company
+        const response = await getMockData();
+        if (response && response.developers) {
+          setData(response.developers);
+          if (response.developers.length > 0) setSelectedUser(response.developers[0]);
+        } else {
+          setData([]);
+        }
+      }
+    };
+
+    fetchData();
+  }, [user, getMockData]);
+
+  // If no user is logged in, show login page
+  if (!user) {
+    return <Login />;
+  }
+
+  const renderContent = () => {
+    switch (currentView) {
+      case 'team-analytics':
+        return <TeamAnalytics data={data} settings={settings} />;
+      case 'settings':
+        return <Settings />;
+      case 'dashboard':
+      default:
+        return (
+          <div className="grid grid-cols-1 xl:grid-cols-4 gap-8">
+            <div className="xl:col-span-3">
+              <Dashboard data={data} onUserSelect={setSelectedUser} settings={settings} />
+            </div>
+            <div className="xl:col-span-1 bg-gray-50 p-8 rounded-xl border border-gray-200 shadow-sm">
+              <UserStats user={selectedUser} settings={settings} />
+            </div>
+          </div>
+        );
+    }
+  };
 
   return (
-    <div className="flex h-screen bg-slate-950 text-slate-200">
-      <Sidebar />
-      <main className="flex-1 flex flex-col p-8 overflow-hidden">
-        <div className="flex justify-between items-start mb-10">
-          <div>
-            <h1 className="text-4xl font-bold text-white tracking-tight">Engineering Truth Layer</h1>
-            <p className="text-slate-400 mt-2">Validating impact through cross-platform signal correlation.</p>
-          </div>
-          <button className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full font-semibold transition-all shadow-lg shadow-blue-900/20">
-            Sync Data
-          </button>
-        </div>
+    <div className="flex h-screen bg-white text-black overflow-hidden font-sans">
+      <Sidebar currentView={currentView} onViewChange={setCurrentView} user={user} />
+      
+      <main className="flex-1 p-8 overflow-y-auto">
+        {currentView === 'dashboard' && (
+          <header className="flex justify-between items-end mb-12">
+            <div>
+              <h1 className="text-5xl font-black text-black tracking-tighter">DEVLENS<span className="text-green-600">.</span></h1>
+              <p className="text-gray-600 text-lg mt-2 font-light">Advanced Developer Performance Analytics Platform</p>
+              <p className="text-sm text-gray-500 mt-1">{user.company} • {user.name}</p>
+            </div>
+            <div className="bg-gray-50 border border-gray-200 px-6 py-3 rounded-xl shadow-sm">
+              <span className="text-xs text-gray-500 uppercase font-semibold block">System Status</span>
+              <span className="text-green-600 font-mono text-sm">Active • Real-time Analytics</span>
+            </div>
+          </header>
+        )}
 
-        <div className="flex gap-8 flex-1">
-          <div className="flex-[2]">
-            <Dashboard data={data} onUserSelect={setSelectedUser} />
-          </div>
-          <div className="flex-1 bg-slate-900 p-8 rounded-2xl border border-slate-800 shadow-2xl">
-            <h2 className="text-xl font-semibold mb-6">User Deep-Dive</h2>
-            <UserStats user={selectedUser} />
-          </div>
-        </div>
+        {renderContent()}
       </main>
     </div>
+  );
+};
+
+function App() {
+  return (
+    <AppProvider>
+      <AppContent />
+    </AppProvider>
   );
 }
 

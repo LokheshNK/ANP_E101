@@ -1,0 +1,994 @@
+[
+  {
+    "user_id": "teams_guid_emma",
+    "name": "Emma",
+    "team": "QA",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 64,
+      "leave_days": 8,
+      "sick_days": 2,
+      "attendance_rate": 1.0
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 3,
+      "meetings_organized": 0,
+      "meeting_attendance_rate": 0.2,
+      "code_reviews_given": 10,
+      "code_reviews_received": 12,
+      "avg_review_response_time_hours": 38.7
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.2,
+      "knowledge_sharing_score": 0.15,
+      "proactivity_score": 1.0,
+      "reliability_score": 1.0
+    }
+  },
+  {
+    "user_id": "teams_guid_amelia",
+    "name": "Amelia",
+    "team": "UI/UX",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 53,
+      "leave_days": 6,
+      "sick_days": 0,
+      "attendance_rate": 0.84
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 9,
+      "meetings_organized": 4,
+      "meeting_attendance_rate": 0.6,
+      "code_reviews_given": 8,
+      "code_reviews_received": 4,
+      "avg_review_response_time_hours": 43.0
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.2,
+      "knowledge_sharing_score": 0.15,
+      "proactivity_score": 0.44,
+      "reliability_score": 0.84
+    }
+  },
+  {
+    "user_id": "teams_guid_mia",
+    "name": "Mia",
+    "team": "UI/UX",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 56,
+      "leave_days": 4,
+      "sick_days": 0,
+      "attendance_rate": 0.88
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 5,
+      "meetings_organized": 3,
+      "meeting_attendance_rate": 0.333,
+      "code_reviews_given": 5,
+      "code_reviews_received": 6,
+      "avg_review_response_time_hours": 13.1
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.133,
+      "knowledge_sharing_score": 0.1,
+      "proactivity_score": 0.64,
+      "reliability_score": 0.88
+    }
+  },
+  {
+    "user_id": "teams_guid_jordan",
+    "name": "Jordan",
+    "team": "QA",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 56,
+      "leave_days": 2,
+      "sick_days": 1,
+      "attendance_rate": 0.89
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 7,
+      "meetings_organized": 0,
+      "meeting_attendance_rate": 0.467,
+      "code_reviews_given": 11,
+      "code_reviews_received": 4,
+      "avg_review_response_time_hours": 42.3
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.2,
+      "knowledge_sharing_score": 0.15,
+      "proactivity_score": 0.64,
+      "reliability_score": 0.89
+    }
+  },
+  {
+    "user_id": "teams_guid_lucas",
+    "name": "Lucas",
+    "team": "UI/UX",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 58,
+      "leave_days": 3,
+      "sick_days": 3,
+      "attendance_rate": 0.91
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 7,
+      "meetings_organized": 4,
+      "meeting_attendance_rate": 0.467,
+      "code_reviews_given": 12,
+      "code_reviews_received": 7,
+      "avg_review_response_time_hours": 24.2
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.2,
+      "knowledge_sharing_score": 0.15,
+      "proactivity_score": 0.72,
+      "reliability_score": 0.91
+    }
+  },
+  {
+    "user_id": "teams_guid_alexander",
+    "name": "Alexander",
+    "team": "UI/UX",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 62,
+      "leave_days": 2,
+      "sick_days": 2,
+      "attendance_rate": 0.97
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 0,
+      "meetings_organized": 1,
+      "meeting_attendance_rate": 0.0,
+      "code_reviews_given": 14,
+      "code_reviews_received": 5,
+      "avg_review_response_time_hours": 23.0
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.2,
+      "knowledge_sharing_score": 0.15,
+      "proactivity_score": 0.96,
+      "reliability_score": 0.97
+    }
+  },
+  {
+    "user_id": "teams_guid_benjamin",
+    "name": "Benjamin",
+    "team": "UI/UX",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 56,
+      "leave_days": 5,
+      "sick_days": 4,
+      "attendance_rate": 0.88
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 6,
+      "meetings_organized": 2,
+      "meeting_attendance_rate": 0.4,
+      "code_reviews_given": 10,
+      "code_reviews_received": 8,
+      "avg_review_response_time_hours": 34.0
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.2,
+      "knowledge_sharing_score": 0.15,
+      "proactivity_score": 0.6,
+      "reliability_score": 0.88
+    }
+  },
+  {
+    "user_id": "teams_guid_ava",
+    "name": "Ava",
+    "team": "DevOps",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 58,
+      "leave_days": 4,
+      "sick_days": 4,
+      "attendance_rate": 0.92
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 2,
+      "meetings_organized": 1,
+      "meeting_attendance_rate": 0.133,
+      "code_reviews_given": 14,
+      "code_reviews_received": 8,
+      "avg_review_response_time_hours": 37.0
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.2,
+      "knowledge_sharing_score": 0.15,
+      "proactivity_score": 0.76,
+      "reliability_score": 0.92
+    }
+  },
+  {
+    "user_id": "teams_guid_noah",
+    "name": "Noah",
+    "team": "QA",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 53,
+      "leave_days": 5,
+      "sick_days": 0,
+      "attendance_rate": 0.84
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 10,
+      "meetings_organized": 1,
+      "meeting_attendance_rate": 0.667,
+      "code_reviews_given": 3,
+      "code_reviews_received": 5,
+      "avg_review_response_time_hours": 13.4
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.2,
+      "knowledge_sharing_score": 0.15,
+      "proactivity_score": 0.44,
+      "reliability_score": 0.84
+    }
+  },
+  {
+    "user_id": "teams_guid_abigail",
+    "name": "Abigail",
+    "team": "QA",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 56,
+      "leave_days": 4,
+      "sick_days": 2,
+      "attendance_rate": 0.88
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 18,
+      "meetings_organized": 0,
+      "meeting_attendance_rate": 1.0,
+      "code_reviews_given": 3,
+      "code_reviews_received": 5,
+      "avg_review_response_time_hours": 14.3
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.467,
+      "knowledge_sharing_score": 0.35,
+      "proactivity_score": 0.44,
+      "reliability_score": 0.88
+    }
+  },
+  {
+    "user_id": "teams_guid_taylor",
+    "name": "Taylor",
+    "team": "DevOps",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 59,
+      "leave_days": 3,
+      "sick_days": 0,
+      "attendance_rate": 0.93
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 5,
+      "meetings_organized": 3,
+      "meeting_attendance_rate": 0.333,
+      "code_reviews_given": 15,
+      "code_reviews_received": 5,
+      "avg_review_response_time_hours": 40.4
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.2,
+      "knowledge_sharing_score": 0.15,
+      "proactivity_score": 0.8,
+      "reliability_score": 0.93
+    }
+  },
+  {
+    "user_id": "teams_guid_mason",
+    "name": "Mason",
+    "team": "QA",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 54,
+      "leave_days": 2,
+      "sick_days": 3,
+      "attendance_rate": 0.85
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 9,
+      "meetings_organized": 5,
+      "meeting_attendance_rate": 0.6,
+      "code_reviews_given": 7,
+      "code_reviews_received": 6,
+      "avg_review_response_time_hours": 12.3
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.2,
+      "knowledge_sharing_score": 0.15,
+      "proactivity_score": 0.48,
+      "reliability_score": 0.85
+    }
+  },
+  {
+    "user_id": "teams_guid_william",
+    "name": "William",
+    "team": "UI/UX",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 63,
+      "leave_days": 2,
+      "sick_days": 2,
+      "attendance_rate": 0.99
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 7,
+      "meetings_organized": 3,
+      "meeting_attendance_rate": 0.467,
+      "code_reviews_given": 19,
+      "code_reviews_received": 11,
+      "avg_review_response_time_hours": 41.5
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.2,
+      "knowledge_sharing_score": 0.15,
+      "proactivity_score": 1.0,
+      "reliability_score": 0.99
+    }
+  },
+  {
+    "user_id": "teams_guid_olivia",
+    "name": "Olivia",
+    "team": "UI/UX",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 60,
+      "leave_days": 6,
+      "sick_days": 1,
+      "attendance_rate": 0.95
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 2,
+      "meetings_organized": 5,
+      "meeting_attendance_rate": 0.133,
+      "code_reviews_given": 15,
+      "code_reviews_received": 4,
+      "avg_review_response_time_hours": 17.9
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.2,
+      "knowledge_sharing_score": 0.15,
+      "proactivity_score": 0.88,
+      "reliability_score": 0.95
+    }
+  },
+  {
+    "user_id": "teams_guid_sophia",
+    "name": "Sophia",
+    "team": "DevOps",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 58,
+      "leave_days": 7,
+      "sick_days": 4,
+      "attendance_rate": 0.92
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 0,
+      "meetings_organized": 3,
+      "meeting_attendance_rate": 0.0,
+      "code_reviews_given": 8,
+      "code_reviews_received": 8,
+      "avg_review_response_time_hours": 31.0
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.133,
+      "knowledge_sharing_score": 0.1,
+      "proactivity_score": 0.8,
+      "reliability_score": 0.92
+    }
+  },
+  {
+    "user_id": "teams_guid_zoe_walker",
+    "name": "Zoe Walker",
+    "team": "Backend",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 59,
+      "leave_days": 8,
+      "sick_days": 1,
+      "attendance_rate": 0.93
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 18,
+      "meetings_organized": 2,
+      "meeting_attendance_rate": 1.0,
+      "code_reviews_given": 7,
+      "code_reviews_received": 2,
+      "avg_review_response_time_hours": 42.6
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.733,
+      "knowledge_sharing_score": 0.55,
+      "proactivity_score": 0.48,
+      "reliability_score": 0.93
+    }
+  },
+  {
+    "user_id": "teams_guid_sage_harris",
+    "name": "Sage Harris",
+    "team": "Backend",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 55,
+      "leave_days": 4,
+      "sick_days": 1,
+      "attendance_rate": 0.87
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 14,
+      "meetings_organized": 5,
+      "meeting_attendance_rate": 0.933,
+      "code_reviews_given": 2,
+      "code_reviews_received": 2,
+      "avg_review_response_time_hours": 5.6
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.733,
+      "knowledge_sharing_score": 0.55,
+      "proactivity_score": 0.24,
+      "reliability_score": 0.87
+    }
+  },
+  {
+    "user_id": "teams_guid_rowan_jackson",
+    "name": "Rowan Jackson",
+    "team": "Platform",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 62,
+      "leave_days": 5,
+      "sick_days": 0,
+      "attendance_rate": 0.97
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 12,
+      "meetings_organized": 3,
+      "meeting_attendance_rate": 0.8,
+      "code_reviews_given": 7,
+      "code_reviews_received": 3,
+      "avg_review_response_time_hours": 41.0
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.733,
+      "knowledge_sharing_score": 0.55,
+      "proactivity_score": 0.64,
+      "reliability_score": 0.97
+    }
+  },
+  {
+    "user_id": "teams_guid_eli_hall",
+    "name": "Eli Hall",
+    "team": "Backend",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 60,
+      "leave_days": 8,
+      "sick_days": 3,
+      "attendance_rate": 0.94
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 10,
+      "meetings_organized": 0,
+      "meeting_attendance_rate": 0.667,
+      "code_reviews_given": 7,
+      "code_reviews_received": 8,
+      "avg_review_response_time_hours": 30.8
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.533,
+      "knowledge_sharing_score": 0.4,
+      "proactivity_score": 0.64,
+      "reliability_score": 0.94
+    }
+  },
+  {
+    "user_id": "teams_guid_skylar_thomas",
+    "name": "Skylar Thomas",
+    "team": "Platform",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 64,
+      "leave_days": 5,
+      "sick_days": 4,
+      "attendance_rate": 1.0
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 21,
+      "meetings_organized": 1,
+      "meeting_attendance_rate": 1.0,
+      "code_reviews_given": 3,
+      "code_reviews_received": 2,
+      "avg_review_response_time_hours": 38.8
+    },
+    "personality_indicators": {
+      "collaboration_score": 1.0,
+      "knowledge_sharing_score": 1.0,
+      "proactivity_score": 0.4,
+      "reliability_score": 1.0
+    }
+  },
+  {
+    "user_id": "teams_guid_nova_martin",
+    "name": "Nova Martin",
+    "team": "Platform",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 61,
+      "leave_days": 7,
+      "sick_days": 4,
+      "attendance_rate": 0.96
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 15,
+      "meetings_organized": 0,
+      "meeting_attendance_rate": 1.0,
+      "code_reviews_given": 5,
+      "code_reviews_received": 5,
+      "avg_review_response_time_hours": 32.0
+    },
+    "personality_indicators": {
+      "collaboration_score": 1.0,
+      "knowledge_sharing_score": 0.75,
+      "proactivity_score": 0.44,
+      "reliability_score": 0.96
+    }
+  },
+  {
+    "user_id": "teams_guid_nora_allen",
+    "name": "Nora Allen",
+    "team": "Platform",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 64,
+      "leave_days": 2,
+      "sick_days": 3,
+      "attendance_rate": 1.0
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 21,
+      "meetings_organized": 4,
+      "meeting_attendance_rate": 1.0,
+      "code_reviews_given": 7,
+      "code_reviews_received": 4,
+      "avg_review_response_time_hours": 3.0
+    },
+    "personality_indicators": {
+      "collaboration_score": 1.0,
+      "knowledge_sharing_score": 1.0,
+      "proactivity_score": 0.56,
+      "reliability_score": 1.0
+    }
+  },
+  {
+    "user_id": "teams_guid_taylor_johnson",
+    "name": "Taylor Johnson",
+    "team": "Frontend",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 61,
+      "leave_days": 3,
+      "sick_days": 1,
+      "attendance_rate": 0.96
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 10,
+      "meetings_organized": 5,
+      "meeting_attendance_rate": 0.667,
+      "code_reviews_given": 4,
+      "code_reviews_received": 8,
+      "avg_review_response_time_hours": 16.9
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.667,
+      "knowledge_sharing_score": 0.5,
+      "proactivity_score": 0.64,
+      "reliability_score": 0.96
+    }
+  },
+  {
+    "user_id": "teams_guid_kai_thompson",
+    "name": "Kai Thompson",
+    "team": "Backend",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 64,
+      "leave_days": 3,
+      "sick_days": 3,
+      "attendance_rate": 1.0
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 16,
+      "meetings_organized": 3,
+      "meeting_attendance_rate": 1.0,
+      "code_reviews_given": 8,
+      "code_reviews_received": 7,
+      "avg_review_response_time_hours": 36.1
+    },
+    "personality_indicators": {
+      "collaboration_score": 1.0,
+      "knowledge_sharing_score": 0.75,
+      "proactivity_score": 0.76,
+      "reliability_score": 1.0
+    }
+  },
+  {
+    "user_id": "teams_guid_river_taylor",
+    "name": "River Taylor",
+    "team": "Backend",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 54,
+      "leave_days": 6,
+      "sick_days": 3,
+      "attendance_rate": 0.85
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 11,
+      "meetings_organized": 4,
+      "meeting_attendance_rate": 0.733,
+      "code_reviews_given": 5,
+      "code_reviews_received": 1,
+      "avg_review_response_time_hours": 29.0
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.467,
+      "knowledge_sharing_score": 0.35,
+      "proactivity_score": 0.32,
+      "reliability_score": 0.85
+    }
+  },
+  {
+    "user_id": "teams_guid_morgan_brown",
+    "name": "Morgan Brown",
+    "team": "Security",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 63,
+      "leave_days": 8,
+      "sick_days": 3,
+      "attendance_rate": 0.99
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 16,
+      "meetings_organized": 2,
+      "meeting_attendance_rate": 1.0,
+      "code_reviews_given": 9,
+      "code_reviews_received": 5,
+      "avg_review_response_time_hours": 47.0
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.8,
+      "knowledge_sharing_score": 0.6,
+      "proactivity_score": 0.68,
+      "reliability_score": 0.99
+    }
+  },
+  {
+    "user_id": "teams_guid_luna_robinson",
+    "name": "Luna Robinson",
+    "team": "Backend",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 57,
+      "leave_days": 3,
+      "sick_days": 2,
+      "attendance_rate": 0.9
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 18,
+      "meetings_organized": 0,
+      "meeting_attendance_rate": 1.0,
+      "code_reviews_given": 4,
+      "code_reviews_received": 2,
+      "avg_review_response_time_hours": 47.0
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.8,
+      "knowledge_sharing_score": 0.6,
+      "proactivity_score": 0.32,
+      "reliability_score": 0.9
+    }
+  },
+  {
+    "user_id": "teams_guid_quinn_wilson",
+    "name": "Quinn Wilson",
+    "team": "Frontend",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 64,
+      "leave_days": 2,
+      "sick_days": 0,
+      "attendance_rate": 1.0
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 15,
+      "meetings_organized": 4,
+      "meeting_attendance_rate": 1.0,
+      "code_reviews_given": 5,
+      "code_reviews_received": 5,
+      "avg_review_response_time_hours": 27.8
+    },
+    "personality_indicators": {
+      "collaboration_score": 1.0,
+      "knowledge_sharing_score": 0.75,
+      "proactivity_score": 0.64,
+      "reliability_score": 1.0
+    }
+  },
+  {
+    "user_id": "teams_guid_orion_clark",
+    "name": "Orion Clark",
+    "team": "Backend",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 58,
+      "leave_days": 7,
+      "sick_days": 0,
+      "attendance_rate": 0.92
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 10,
+      "meetings_organized": 5,
+      "meeting_attendance_rate": 0.667,
+      "code_reviews_given": 7,
+      "code_reviews_received": 5,
+      "avg_review_response_time_hours": 27.7
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.533,
+      "knowledge_sharing_score": 0.4,
+      "proactivity_score": 0.56,
+      "reliability_score": 0.92
+    }
+  },
+  {
+    "user_id": "teams_guid_sage_moore",
+    "name": "Sage Moore",
+    "team": "Frontend",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 62,
+      "leave_days": 5,
+      "sick_days": 0,
+      "attendance_rate": 0.97
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 15,
+      "meetings_organized": 0,
+      "meeting_attendance_rate": 1.0,
+      "code_reviews_given": 9,
+      "code_reviews_received": 3,
+      "avg_review_response_time_hours": 21.9
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.733,
+      "knowledge_sharing_score": 0.55,
+      "proactivity_score": 0.64,
+      "reliability_score": 0.97
+    }
+  },
+  {
+    "user_id": "teams_guid_zara_garcia",
+    "name": "Zara Garcia",
+    "team": "Security",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 62,
+      "leave_days": 4,
+      "sick_days": 1,
+      "attendance_rate": 0.98
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 16,
+      "meetings_organized": 0,
+      "meeting_attendance_rate": 1.0,
+      "code_reviews_given": 11,
+      "code_reviews_received": 10,
+      "avg_review_response_time_hours": 3.0
+    },
+    "personality_indicators": {
+      "collaboration_score": 0.667,
+      "knowledge_sharing_score": 0.5,
+      "proactivity_score": 0.72,
+      "reliability_score": 0.98
+    }
+  },
+  {
+    "user_id": "teams_guid_phoenix_anderson",
+    "name": "Phoenix Anderson",
+    "team": "Frontend",
+    "analysis_period": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-08-19",
+      "total_days": 90
+    },
+    "attendance_metrics": {
+      "total_work_days": 64,
+      "days_present": 64,
+      "leave_days": 8,
+      "sick_days": 3,
+      "attendance_rate": 1.0
+    },
+    "collaboration_metrics": {
+      "meetings_attended": 22,
+      "meetings_organized": 3,
+      "meeting_attendance_rate": 1.0,
+      "code_reviews_given": 5,
+      "code_reviews_received": 5,
+      "avg_review_response_time_hours": 36.2
+    },
+    "personality_indicators": {
+      "collaboration_score": 1.0,
+      "knowledge_sharing_score": 1.0,
+      "proactivity_score": 0.52,
+      "reliability_score": 1.0
+    }
+  }
+]
