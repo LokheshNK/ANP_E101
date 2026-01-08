@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 fastapi
 uvicorn
 pandas
@@ -5,3 +6,10 @@ numpy
 pydantic
 smtplib
 email-validator
+=======
+fastapi==0.104.1
+uvicorn==0.24.0
+pandas==2.1.3
+numpy==1.25.2
+python-multipart==0.0.6
+>>>>>>> 115173da8f5783f233c9214b986ef3c3f815ef23
